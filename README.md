@@ -35,16 +35,6 @@ The requirements to follow the exercises in this repository are
     - [Exercise 2.3 - Activate the monitoring data collection in Real User Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
     - [Exercise 2.4 - Analyse the collected metrics](exercises/ex2#exercise-22-sub-exercise-2-description)
   
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
-## Contributing
-Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
-
-## Code of Conduct
-Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
-
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via email to cloudalm@sap.com.
