@@ -1,26 +1,23 @@
-# Level 1 Heading
+# Getting Started
 
-In this exercise, you will...
+In this exercise, you will gather important information to execute your exercise.
 
-## Level 2 Heading
+## Find your Group Number
 
-After completing these steps you will have....
+During this Teched exercise, you will instrument a Java application and deploy it into an SAP BTP subaccount. You will then activate the monitoring for this Java application in a shared SAP Cloud ALM. 
+To avoid that it comes to conflicts between two applications, it is very important that you know your place number and execute the exercise using this place number.
+Please check the sign on your table. The number on this sign is your place number. 
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+## Login Information
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+Please replace the _**XXX**_ in the user name with your place number (e.g. XP261_001@education.cloud.sap).
+
+| Application | User ID | Password | URL |
+|---|---|---|---|
+| SAP Cloud ALM URL | XP261_**XXX**@education.cloud.sap | coming soon | coming soon |
+| SAP BTP Cockpit | XP261_**XXX**@education.cloud.sap | coming soon | coming soon |
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Now that you have you login information ... 
+Continue to - [Exercise 1 - Instrumenting your Demo Application](../ex1/README.md)
