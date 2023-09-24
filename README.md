@@ -28,15 +28,13 @@ The requirements to follow the exercises in this repository are
     - [Exercise 1.1 - Copy Code from GitHub into your development environment](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Instrument the Java application](exercises/ex1#exercise-12-sub-exercise-2-description)
     - [Exercise 1.3 - Build the Java application](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 1.4 - Deploy the Java application in BTP](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Observe Metrics in SAP Cloud ALM](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
+    - [Exercise 2.1 - Log on to SAP Cloud ALM](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Exercise 2.2 - Activate the monitoring data collection in Health Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
+    - [Exercise 2.3 - Activate the monitoring data collection in Real User Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
+    - [Exercise 2.4 - Analyse the collected metrics](exercises/ex2#exercise-22-sub-exercise-2-description)
   
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
 **IMPORTANT**
 
 Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
@@ -49,7 +47,7 @@ Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples
 
 ## How to obtain support
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via email to cloudalm@sap.com.
 
 ## License
 Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
