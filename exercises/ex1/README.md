@@ -11,17 +11,17 @@ _**comment**_ Will be have a frontend and if so will we instrument it for them o
 The first step is to copy the sample application from this GitHub repository to your local development environment on your Teched laptop.
 
 Open the IntelliJ IDEA Community Edition app on your Teched laptop:
-![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/1f3c6050-dd18-444d-92fd-341135e04494)
+<br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/1f3c6050-dd18-444d-92fd-341135e04494)
 
 Select "Get from VCS"
-![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/23db97d8-640b-4107-bdc9-c57a791a4fe1)
+<br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/23db97d8-640b-4107-bdc9-c57a791a4fe1)
 
 Paste the following URL: **xxxxxxx**
-![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
+<br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
 You will now see the imported Java project in your IntelliJ project browser.
 _**comment**_ Need to replace screenshot
-![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e6479cda-4cdb-4e7e-9a03-2dedad9c4b27)
+<br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e6479cda-4cdb-4e7e-9a03-2dedad9c4b27)
 
 ## Exercise 1.2 Instrument the Java application
 
