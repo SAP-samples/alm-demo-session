@@ -1,0 +1,18 @@
+{
+    "authenticationMethod": "none",
+    "destinations": [
+        {
+            "name": "srv_api",
+            "url": "http://localhost:4000/",
+            "forwardAuthToken": true,
+            "strictSSL": false,
+            "timeout": 300000
+        },{
+            "name": "pullCollector_api",
+            "url": "http://localhost:3000/",
+            "forwardAuthToken": true,
+            "strictSSL": false,
+            "timeout": 300000
+        }
+    ]
+}

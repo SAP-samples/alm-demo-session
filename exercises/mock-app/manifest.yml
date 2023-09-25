@@ -1,0 +1,29 @@
+---
+applications:
+  # Application
+  - name: job-overview-srv
+    path: server
+    instances: 1
+    memory: 512M
+    command: npm start
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - job-overview-uaa
+      - app2app-destinations-calm
+  - name: job-overview-ui
+    path: ui
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - job-overview-uaa
+      - app2app-destinations-calm
+    env:
+      destinations: >
+        [
+          {
+            "name": "srv_api",
+            "url": "https://job-overview-srv.cfapps.eu10-004.hana.ondemand.com/",   
+            "forwardAuthToken": true
+          }
+        ]

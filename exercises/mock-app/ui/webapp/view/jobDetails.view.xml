@@ -1,0 +1,125 @@
+<mvc:View controllerName="joboverview.controller.jobDetails"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns:fb="sap.ui.comp.filterbar"
+    xmlns:svm="sap.ui.comp.smartvariants">
+    <Page id="page">
+    <customHeader>
+        <Bar design="Header">
+            <contentLeft>
+                <Image src="../images/SAP_Logo.png"/>
+                <Title text="{i18n>title}" />
+            </contentLeft>
+            <contentRight>
+                <Button icon="sap-icon://information" press="onInformationPress" />
+                <Button icon="sap-icon://account" press="onAccountPress" />
+            </contentRight>
+        </Bar>
+    </customHeader>
+        <f:DynamicPage headerExpanded="true">
+        <f:title>
+				<!-- <f:DynamicPageTitle>
+					<f:heading>
+						<svm:SmartVariantManagement id="svm" showExecuteOnSelection="true" />
+					</f:heading>
+					<f:expandedContent>
+						<Label id="expandedLabel" text="Filters" />
+					</f:expandedContent>
+					<f:snappedContent>
+						<Label id="snappedLabel" text="Filters" />
+					</f:snappedContent>
+				</f:DynamicPageTitle> -->
+			</f:title>
+            <f:header>
+                <f:DynamicPageHeader pinnable="true">
+                    <f:content>
+                        <fb:FilterBar id="filterbar" persistencyKey="myPersKey" useToolbar="false"
+                            search=".onSearch" filterChange=".onFilterChange"
+                            afterVariantLoad=".onAfterVariantLoad">
+                            <fb:filterGroupItems>
+                                
+                                <fb:FilterGroupItem name="JOBSTATUS" label="Job Status"
+                                    groupName="Group1" visibleInFilterBar="true">
+                                    <fb:control>
+                                        <MultiComboBox
+                                            name="Job Status"
+                                            selectionChange=".onSelectionChange"
+                                            items="{
+												path: 'comboBoxData>/jobStatus',
+												templateShareable: true
+											}"
+                                        >
+                                            <core:Item key="{comboBoxData>key}" text="{comboBoxData>jobStatus}" />
+                                        </MultiComboBox>
+                                    </fb:control>
+                                </fb:FilterGroupItem>
+                                
+                            </fb:filterGroupItems>
+                        </fb:FilterBar>
+                    </f:content>
+                </f:DynamicPageHeader>
+            </f:header>
+            <f:content>
+            <ScrollContainer height="100%" width="100%" focusable="true" vertical="true" horizontal="true">
+                <Table
+                    id="jobDetailsTable"
+                    inset="false"
+                    items="{path:'/'}"
+                    growing="true"
+                    growingThreshold="50"
+                    fixedLayout="true" sticky="ColumnHeaders"
+                >
+                    <columns>
+                        <Column  minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Job Id" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Scheduled Time" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Sub Task Number" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Job Status" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Pick Id" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Attempts Made" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Start Time" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="End Time" />
+                        </Column>
+                        <Column minScreenWidth="Tablet" demandPopin="true">
+                            <Text text="Status Text" />
+                        </Column>
+                    </columns>
+
+                    <items>
+                        <ColumnListItem vAlign="Middle" type="Active" press="onRowClick">
+                            <cells>
+                                <ObjectIdentifier title="{JOBID}" />
+                               <Text text="{SCHEDULEDTIME}" />
+                                <Text text="{SUBTASKNO}" />
+                                <Text text="{JOBSTATUS}" />
+                                <Text text="{PICKID}" />
+                                <Text text="{ATTEMPTSMADE}" />
+                                <Text text="{STARTTIME}" />
+                                <Text text="{ENDTIME}" />
+                                <Text text="{STATUSTEXT}" />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+                </ScrollContainer>
+            </f:content>
+        </f:DynamicPage>
+    </Page>
+</mvc:View>

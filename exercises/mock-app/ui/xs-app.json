@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+            "source": "/srv/(.*)",
+            "destination": "srv_api",
+            "authenticationType": "none"
+        },
+        {
+            "source": "/",
+            "target": "/",
+            "localDir": "webapp",
+            "authenticationType": "none"
+        }
+    ]
+}

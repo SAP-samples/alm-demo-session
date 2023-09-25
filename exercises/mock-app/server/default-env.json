@@ -1,0 +1,72 @@
+{
+	"VCAP_SERVICES": {
+		"destination": [
+			{
+				"label": "destination",
+				"provider": null,
+				"plan": "lite",
+				"name": "app2app-destinations-calm",
+				"tags": [
+					"destination",
+					"conn",
+					"connsvc"
+				],
+				"instance_guid": "aabb58c1-070e-42a9-9093-9b75654226ff",
+				"instance_name": "app2app-destinations-calm",
+				"binding_guid": "b91bb07c-96cb-4ccf-9acf-7d9266e2253e",
+				"binding_name": null,
+				"credentials": {
+					"tenantmode": "dedicated",
+					"clientid": "sb-cloneaabb58c1070e42a990939b75654226ff!b162106|destination-xsappname!b404",
+					"credential-type": "binding-secret",
+					"xsappname": "cloneaabb58c1070e42a990939b75654226ff!b162106|destination-xsappname!b404",
+					"clientsecret": "b91bb07c-96cb-4ccf-9acf-7d9266e2253e$fQdH7HVOCKGDTdJxi1w4Bg0JceasKI4w7slOamDf7iA=",
+					"uri": "https://destination-configuration.cfapps.eu10.hana.ondemand.com",
+					"url": "https://calm-1provider-dev.authentication.eu10.hana.ondemand.com",
+					"uaadomain": "authentication.eu10.hana.ondemand.com",
+					"instanceid": "aabb58c1-070e-42a9-9093-9b75654226ff",
+					"verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw25Jrd25evVCHjhs1vWk\n+NnVSRIYvYXR09/GcEo5OIL0b2d38AsU9cz13R9j+xz+Aw4u+0bE47h+Lsh1aiqX\nAOox43hRlFtoaiqQEoUUMTaZFzgh3Xwz6PuRUDBrFHqUxMUokCHSu2uescVMab4z\nIKaaRu/9gjarx+QNe+fClHBgb5GyojjtYX2nvkC8wqBwbkgrPX5YM64yF0YY/T4Y\nRBB8rcLx4lcdC5+YAZsS6aDhJ++SgX0d1+6fomfROfzcewPoCqn6L3sBdrYfIAzG\nCv9b475IX1NW/B2SiNLMNFsGl7Hwu1+wXT53PKFooFn2BXZoiBbrfCH5CKY2bpp/\nmwIDAQAB\n-----END PUBLIC KEY-----",
+					"identityzone": "calm-1provider-dev",
+					"tenantid": "936a5995-2c31-4d4f-ae2c-827e05ac3733"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+		"xsuaa": [
+			{
+				"label": "xsuaa",
+				"provider": null,
+				"plan": "application",
+				"name": "job-overview-uaa",
+				"tags": [
+					"xsuaa"
+				],
+				"instance_guid": "84be4432-9198-4e3c-b49a-40f5dcf0e6b0",
+				"instance_name": "job-overview-uaa",
+				"binding_guid": "1ee277b3-1b9d-4e50-8ed4-3263075d292d",
+				"binding_name": null,
+				"credentials": {
+					"tenantmode": "dedicated",
+					"sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
+					"subaccountid": "936a5995-2c31-4d4f-ae2c-827e05ac3733",
+					"credential-type": "instance-secret",
+					"clientid": "sb-job-overview!t162106",
+					"xsappname": "job-overview!t162106",
+					"clientsecret": "ok/fNx/qfFVHOyKL5WAeRb4Lmbo=",
+					"url": "https://calm-1provider-dev.authentication.eu10.hana.ondemand.com",
+					"uaadomain": "authentication.eu10.hana.ondemand.com",
+					"verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw25Jrd25evVCHjhs1vWk\n+NnVSRIYvYXR09/GcEo5OIL0b2d38AsU9cz13R9j+xz+Aw4u+0bE47h+Lsh1aiqX\nAOox43hRlFtoaiqQEoUUMTaZFzgh3Xwz6PuRUDBrFHqUxMUokCHSu2uescVMab4z\nIKaaRu/9gjarx+QNe+fClHBgb5GyojjtYX2nvkC8wqBwbkgrPX5YM64yF0YY/T4Y\nRBB8rcLx4lcdC5+YAZsS6aDhJ++SgX0d1+6fomfROfzcewPoCqn6L3sBdrYfIAzG\nCv9b475IX1NW/B2SiNLMNFsGl7Hwu1+wXT53PKFooFn2BXZoiBbrfCH5CKY2bpp/\nmwIDAQAB\n-----END PUBLIC KEY-----",
+					"apiurl": "https://api.authentication.eu10.hana.ondemand.com",
+					"identityzone": "calm-1provider-dev",
+					"identityzoneid": "936a5995-2c31-4d4f-ae2c-827e05ac3733",
+					"tenantid": "936a5995-2c31-4d4f-ae2c-827e05ac3733",
+					"zoneid": "936a5995-2c31-4d4f-ae2c-827e05ac3733"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}
+    
+}
