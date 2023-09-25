@@ -12,7 +12,7 @@ SAP Cloud ALM provides a new Data Collection Infrastructure that offers a standa
 
 In this session, you will learn how you can instrument your custom-built applications on SAP BTP Cloud Foundry so that monitoring data is sent to SAP Cloud ALM. 
 
-You will be provided with a small demo Java application which you will instrument, build, and deploy on an SAP BTP, Cloud Foundry environment. After you deploy your application you will go to SAP Cloud ALM and observe the metrics delivered to Health Monitoring. 
+You will be provided with a small demo Node.js application which you will instrument, build, and deploy on an SAP BTP, Cloud Foundry environment. After you deploy your application you will go to SAP Cloud ALM and observe the metrics delivered to Real User Monitoring and Health Monitoring. 
 
 ## Requirements
 
@@ -24,16 +24,21 @@ The requirements to follow the exercises in this repository are
 ## Exercises
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - Instrumenting your Demo Application](exercises/ex1/)
-    - [Exercise 1.1 - Copy Code from GitHub into your development environment](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Instrument the Java application](exercises/ex1#exercise-12-sub-exercise-2-description)
-    - [Exercise 1.3 - Build the Java application](exercises/ex1#exercise-12-sub-exercise-2-description)
-    - [Exercise 1.4 - Deploy the Java application in BTP](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Observe Metrics in SAP Cloud ALM](exercises/ex2/)
-    - [Exercise 2.1 - Log on to SAP Cloud ALM](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Activate the monitoring data collection in Health Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
-    - [Exercise 2.3 - Activate the monitoring data collection in Real User Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
-    - [Exercise 2.4 - Analyse the collected metrics](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 1 - Preparations](exercises/ex1/)
+    - [Exercise 1.1 - Copy Code from GitHub](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Exercise 1.2 - Deploy initial Node.js application](exercises/ex1#exercise-12-sub-exercise-2-description)
+- [Exercise 2 - Enable Connectivity to SAP Cloud ALM](exercises/ex2/)
+    - [Exercise 2.1 - Download SAP Cloud ALM Service Key from Landscape Management](exercises/ex2#exercise-21-sub-exercise-2-description)
+    - [Exercise 2.2 - Create Destination in BTP Cockpit](exercises/ex2#exercise-21-sub-exercise-2-description)
+    - [Exercise 2.2 - Activate Data Collection in SAP Cloud ALM](exercises/ex1#exercise-12-sub-exercise-2-description)
+- [Exercise 3 - Instrument your Demo Application](exercises/ex1/)
+    - [Exercise 3.1 - Instrument UI Application](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 3.2 - Instrument Server Application](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 3.3 - Deploy instrumented Node.js application](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 3.4 - Create traffic in your application](exercises/ex1#exercise-12-sub-exercise-2-description)
+- [Exercise 4 - Observe Metrics in SAP Cloud ALM](exercises/ex2/)
+    - [Exercise 4.1 - Check metrics in Real User Monitoring](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Exercise 2.2 - Check metrics in Health Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
   
 ## How to obtain support
 
