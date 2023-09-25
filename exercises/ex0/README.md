@@ -7,19 +7,20 @@ In this exercise, you will gather important information to execute your exercise
 During this Teched exercise, you will instrument a Java application and deploy it into an SAP BTP subaccount. You will then activate the monitoring for this Java application in a shared SAP Cloud ALM. 
 To avoid that it comes to conflicts between two applications, it is very important that you know your place number and execute the exercise using this place number.
 Please check the sign on your table. The number on this sign is your place number. 
-<br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/c5dfd7ee-410a-404b-85dc-a6eec9084b4a)
-
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/c1d342b1-02d0-47be-8942-5f13dc396ffb)
 
 ## Login Information
 
 Please replace the _**XXX**_ in the user name with your place number (e.g. XP261_001@education.cloud.sap).
 
+In the SAP BTP Cockpit, you will only see the subaccount that is relevant for you, based on your place number.
+
 | Application | User ID | Password | URL |
 |---|---|---|---|
-| SAP Cloud ALM URL | XP261_**XXX**@education.cloud.sap | coming soon | coming soon |
-| SAP BTP Cockpit | XP261_**XXX**@education.cloud.sap | coming soon | coming soon |
+| SAP Cloud ALM URL | XP261_**XXX**@education.cloud.sap | coming soon | [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) |
+| SAP BTP Cockpit | XP261_**XXX**@education.cloud.sap | coming soon | [Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd) |
 
 ## Summary
 
-Now that you have you login information ... 
+Now that you have your login information ... 
 Continue to - [Exercise 1 - Instrumenting your Demo Application](../ex1/README.md)
