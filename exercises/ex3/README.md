@@ -45,7 +45,7 @@ In your IntelliJ project expand the server folder and open the .npmrc file
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/fcc8ec69-63c8-489e-a9d2-94479bf2090a)
 
 Replace the current content with this line of code
-```json
+```html
 //73555000100200018064.npmsrv.cdn.repositories.cloud.sap/:_auth=c2FwLXhwMjYxOkpnckVaUHhmSXhTY2tyT0hHWndHZXlKM2JRRlFhRHlV
 ```
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/dfeac1ab-0bd6-45e0-a95f-438b37d0d9bb)
