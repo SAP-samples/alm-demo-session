@@ -1,8 +1,8 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 4 - Observe Metrics in SAP Cloud ALM
 
 In this exercise, we will create...
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Exercise 4.1 Check metrics in Real User Monitoring
 
 After completing these steps you will have created...
 
@@ -15,7 +15,7 @@ response->set_text( |Hello ABAP World! | ).
 
 
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Exercise 4.2 Check metrics in Health Monitoring
 
 After completing these steps you will have...
 
