@@ -30,7 +30,7 @@ The requirements to follow the exercises in this repository are
 - [Exercise 2 - Enable Connectivity to SAP Cloud ALM](exercises/ex2/)
     - [Exercise 2.1 - Download SAP Cloud ALM Service Key from Landscape Management](exercises/ex2#exercise-21-sub-exercise-2-description)
     - [Exercise 2.2 - Create Destination in BTP Cockpit](exercises/ex2#exercise-21-sub-exercise-2-description)
-    - [Exercise 2.2 - Activate Data Collection in SAP Cloud ALM](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 2.3 - Activate Data Collection in SAP Cloud ALM](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 3 - Instrument your Demo Application](exercises/ex1/)
     - [Exercise 3.1 - Instrument UI Application](exercises/ex1#exercise-12-sub-exercise-2-description)
     - [Exercise 3.2 - Instrument Server Application](exercises/ex1#exercise-12-sub-exercise-2-description)
@@ -38,7 +38,7 @@ The requirements to follow the exercises in this repository are
     - [Exercise 3.4 - Create traffic in your application](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 4 - Observe Metrics in SAP Cloud ALM](exercises/ex2/)
     - [Exercise 4.1 - Check metrics in Real User Monitoring](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Check metrics in Health Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
+    - [Exercise 4.2 - Check metrics in Health Monitoring](exercises/ex2#exercise-22-sub-exercise-2-description)
   
 ## How to obtain support
 
