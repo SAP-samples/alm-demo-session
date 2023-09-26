@@ -1,8 +1,8 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Enable Connectivity to SAP Cloud ALM
 
 In this exercise, we will create...
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Exercise 2.1 Download SAP Cloud ALM Service Key from Landscape Management
 
 After completing these steps you will have created...
 
@@ -16,7 +16,7 @@ response->set_text( |Hello ABAP World! | ).
 
 
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Exercise 2.2 Create Destination in BTP Cockpit
 
 After completing these steps you will have...
 
@@ -34,6 +34,10 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
 
 2.	Click here.
 <br>![](/exercises/ex2/images/02_02_0010.png)
+
+## Exercise 2.3 Activate Data Collection in SAP Cloud ALM
+
+next
 
 ## Summary
 
