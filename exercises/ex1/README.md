@@ -14,26 +14,97 @@ Open the IntelliJ IDEA Community Edition app on your Teched laptop:
 Select "Get from VCS"
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/23db97d8-640b-4107-bdc9-c57a791a4fe1)
 
-Paste the following URL: **xxxxxxx**
+Paste the following URL: https://github.com/SAP-samples/teched2023-XP261/tree/main/exercises/mock-app
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
 You will now see the imported Java project in your IntelliJ project browser.
-_**comment**_ Need to replace screenshot
-<br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e6479cda-4cdb-4e7e-9a03-2dedad9c4b27)
+<br> screenshot
+
+In the project exist two branches. One contains the instrumented and one the non-instrumented version of the teched demo application.
+
+To checkout the non-instrumented branch, right-click on the root folder of you project and select "Git" -> "Branches"
+<br>
+
+Open the tree "Remote" -> "origin" and select the entry "non-instrumented". Then click on "Checkout"
+<br>
 
 ## Exercise 1.2 Build initial Node.js application
 
-Now you can instrument the Java application. How you have to instrument it, depends on the Java Buildpack that is used by the application. 
+We will now build and deploy the non-instrumented Node.js application.
+
+The first step is to install all dependencies required by the application. We have to do this for the UI and the server component.
+
+Select the tab "Terminal" in the lower left area of IntelliJ to open a new terminal.
+<br>
+
+Switch to the ui folder using the command: cd ui
+Then enter the command: npm install
+<br>
+
+You can ignore any issues and warnings for now.
+
+After the installation finished, move to the server folder using the command: cd ../server
+Again enter the command: npm install
+<br>
+
+Now you can build the application. 
+
+Switch back to the root directory using the command: cd ..
+
+Enter the command: mbt build -t .
+<br>
+
+After the build is successfully finished, you will find a new file teched-demo-app_1.28.0.mtar in your project directory.
 
 ## Exercise 1.3 Connect to Cloud Foundry
 
-Now you can instrument the Java application. How you have to instrument it, depends on the Java Buildpack that is used by the application. 
-So first let's verify your Java Buildpack.
+Before you can deploy the application, you have to connect your local environment to the correct cloud foundry org.
+
+Go to the Teched Global Account in [BTP Cockpit]( <BTP GA link here>)
+
+Log on with your Teched User: XP261-0XX@education.cloud.sap
+<br>
+
+Click on the subaccount for your place number: XP261-0XX
+<br>
+
+In the Subaccount Overview you will find the API Endpoint for your Cloud Foundry Org.
+<br>
+
+Copy the API Endpoint.
+
+Go back to your IntelliJ. 
+
+In your terminal enter the command: cf api <api endpoint url>
+<br>
+
+Enter the command: cf login
+<br>
+
+Log on with your Teched user and password.
+<br>
+
+Select the org for your place number from the list: <xxxx>
+<br>
+
+You are now logged on to the Cloud Foundry org and your deployment will target the Teched demo space <XXXXX>
 
 ## Exercise 1.4 Deploy initial Node.js application
 
-Now you can instrument the Java application. How you have to instrument it, depends on the Java Buildpack that is used by the application. 
-So first let's verify your Java Buildpack.
+The last step in this exercise is to deploy the Node.js application into the Cloud Foundry org.
+
+In your terminal in IntelliJ run the command: cf deploy teched-demo-app_1.28.0.mtar
+<br>
+
+Once the deployment is finished, you can find your deployed application in the BTP Cockpit.
+
+In the Subaccount Overview click on the link for the application in the "Spaces" area. (You might have to reload the browser window)
+<br>
+
+In the "Applications" view you can see your two deployed apps. 
+- teched-demo-app-sv: This is the backend application
+- teched-demo-app-ui: This is the frontend application
+<br>
 
 
 ## Summary
@@ -41,4 +112,3 @@ So first let's verify your Java Buildpack.
 You've now deployed a first, non-instrumented, version of your Node.js application. The next step is to prepare the infrastructure so it can send metrics to SAP Cloud ALM.
 
 Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
-
