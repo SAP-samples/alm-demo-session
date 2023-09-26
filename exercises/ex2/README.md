@@ -43,7 +43,8 @@ Enter the following values (replace XX with your place number):
 - Client Secret: Enter uaa:clientsecret from the service key (3)
 - Token Service URL Type: Dedicated
 - Token Service URL: Enter uaa:url from the service key (4) and add /oauth/token at the end
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/61c8f27b-87e2-4dbd-bbca-8d56bf9f95c1)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/170b4a57-0aaf-4b00-9e90-30350e48f4ea)
+
 
 Save your destination.
 
