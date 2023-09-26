@@ -112,4 +112,4 @@ In the "Applications" view you can see your two deployed apps.
 
 You've now deployed a first, non-instrumented, version of your Node.js application. The next step is to prepare the infrastructure so it can send metrics to SAP Cloud ALM.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Enable Connectivity to SAP Cloud ALM](../ex2/README.md)
