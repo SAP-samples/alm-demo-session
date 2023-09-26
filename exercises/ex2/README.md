@@ -10,7 +10,7 @@ The destination points to the SAP Cloud ALM API in SAP Cloud ALM. To authenticat
 
 The service key for the SAP Cloud ALM APIs was uploaded to the Landscape Management in your SAP Cloud ALM tenant. From there we will now retrieve it.
 
-Log on to [SAP Cloud ALM] with your Teched user.
+Log on to [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your Teched user.
 <br>
 
 Click on "Administration" -> "Landscape Management" to open the Landscape Management application.
@@ -53,10 +53,45 @@ In the end, your destination should look like this:
 
 ## Exercise 2.3 Activate Data Collection in SAP Cloud ALM
 
-next
+Go back to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) tenant.
+
+Click "SAP Cloud ALM for Operations" -> "Real User Monitoring"
+<br>
+
+Open the Scope Selection and select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. Click "Apply".
+<br>
+
+Open the Real User Monitoring configuration
+<br>
+
+Switch the data collection for your SAP BTP, Cloud Foundry environment from OFF to ON.
+<br>
+
+Go back to the SAP Cloud ALM Launchpad
+<br>
+
+Click "SAP Cloud ALM for Operations" -> "Health Monitoring"
+<br>
+
+Open the Scope Selection and click on "Toggle Filter Bar"
+<br>
+
+Change the "Service Status" to "All"
+<br> 
+
+Select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. Click "Apply".
+<br>
+
+Open the Health Monitoring configuration
+<br>
+
+Switch the data collection for your SAP BTP, Cloud Foundry environment from OFF to ON.
+<br>
 
 ## Summary
 
-You've now ...
+You've now enabled the SAP BTP Cloud Foundry to send monitoring data to SAP Cloud ALM Real User Monitoring and Health Monitoring.
+
+The next step is to instrument your application, so it will collect monitoring data.
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
