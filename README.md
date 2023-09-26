@@ -24,7 +24,7 @@ The requirements to follow the exercises in this repository are
 ## Exercises
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - Preparations](exercises/ex1/)
+- [Exercise 1 - Perform Initial Deploy](exercises/ex1/)
     - [Exercise 1.1 - Copy Code from GitHub](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Deploy initial Node.js application](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Enable Connectivity to SAP Cloud ALM](exercises/ex2/)
