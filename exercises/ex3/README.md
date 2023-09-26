@@ -15,7 +15,20 @@ Insert this line of code after line 6.
 ```
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/e2181889-d23e-46dc-b599-611d2265b6c5)
 
+Now open the xs-app.json file in the ui folder
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/04b238b8-049f-42ba-a6eb-1f2f102942cb)
 
+Insert this line of code after line 2.
+```json
+{
+	"source": "^/fesr$",
+	"target": "/fesr",
+	"destination": "srv_api",
+	"csrfProtection": false,
+	"authenticationType": "none"
+},
+```
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f698dcc4-928a-4f42-955c-b2ebbe47267c)
 
 
 ## Exercise 3.2 Instrument Server Application
