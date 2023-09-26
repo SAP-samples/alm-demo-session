@@ -23,10 +23,11 @@ You will now see the imported Java project in your IntelliJ project browser.
 In the project exist two branches. One contains the instrumented and one the non-instrumented version of the teched demo application.
 
 To checkout the non-instrumented branch, right-click on the root folder of you project and select "Git" -> "Branches"
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/daee45b2-a0d0-4953-8f12-1aed85a1c6c6)
+
 
 Open the tree "Remote" -> "origin" and select the entry "non-instrumented". Then click on "Checkout"
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/93e6ad31-e23d-4150-988d-4d3c28eb4b54)
 
 ## Exercise 1.2 Build initial Node.js application
 
