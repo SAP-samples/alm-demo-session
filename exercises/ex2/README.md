@@ -94,4 +94,4 @@ You've now enabled the SAP BTP Cloud Foundry to send monitoring data to SAP Clou
 
 The next step is to instrument your application, so it will collect monitoring data.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Instrument your Demo Application](../ex3/README.md)
