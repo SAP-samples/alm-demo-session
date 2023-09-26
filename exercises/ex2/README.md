@@ -27,7 +27,7 @@ Use the "Download" button to download the service key.
 
 ## Exercise 2.2 Create Destination in BTP Cockpit
 
-Go back to [SAP BTP Cockpit(https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/accountModel&//?section=SubaccountsSection&view=TreeTableView)] and enter your subaccount. Click on "Connectivity" -> "Destinations"
+Go back to [SAP BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/accountModel&//?section=SubaccountsSection&view=TreeTableView) and enter your subaccount. Click on "Connectivity" -> "Destinations"
 <br>
 
 Click "New Destination"
