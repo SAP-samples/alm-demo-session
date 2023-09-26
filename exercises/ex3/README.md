@@ -1,16 +1,17 @@
 # Exercise 3 - Instrument your Demo Application
 
-In this exercise, we will create...
+Now comes the most important part. In this exercise, we ill finally instrument your Node.js application.
 
 ## Exercise 3.1 Instrument UI Application
 
-After completing these steps you will have created...
+Let's start with the UI application. Here we have to add the FESR instrumentation to collect Frontend Statistics Records.
 
-1. Click here.
+In your project in IntelliJ expand ui > webapp and open the index.html file
+<br>
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
+Insert this line of code after line 6.
+```html
+<meta name="sap-ui-fesr" content="/fesr">
 ```
 
 
