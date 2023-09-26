@@ -7,12 +7,14 @@ Now comes the most important part. In this exercise, we ill finally instrument y
 Let's start with the UI application. Here we have to add the FESR instrumentation to collect Frontend Statistics Records.
 
 In your project in IntelliJ expand ui > webapp and open the index.html file
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/c0604c4d-348e-4dd2-be5f-b1e2126599d3)
 
 Insert this line of code after line 6.
 ```html
 <meta name="sap-ui-fesr" content="/fesr">
 ```
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/e2181889-d23e-46dc-b599-611d2265b6c5)
+
 
 
 
