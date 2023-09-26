@@ -2,7 +2,7 @@
 
 In this exercise, we will create...
 
-## Exercise 2.1 Instrument UI Application
+## Exercise 3.1 Instrument UI Application
 
 After completing these steps you will have created...
 
@@ -15,7 +15,7 @@ response->set_text( |Hello ABAP World! | ).
 
 
 
-## Exercise 2.2 Instrument Server Application
+## Exercise 3.2 Instrument Server Application
 
 After completing these steps you will have...
 
@@ -31,11 +31,11 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
 
 ```
 
-## Exercise 2.3 Deploy instrumented Node.js application
+## Exercise 3.3 Deploy instrumented Node.js application
 
 gggg
 
-## Exercise 2.4 Create some traffic in your application
+## Exercise 3.4 Create some traffic in your application
 
 gggg
 
