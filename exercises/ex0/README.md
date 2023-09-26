@@ -23,4 +23,4 @@ In the SAP BTP Cockpit, you will only see the subaccount that is relevant for yo
 ## Summary
 
 Now that you have your login information ... 
-Continue to - [Exercise 1 - Instrumenting your Demo Application](../ex1/README.md)
+Continue to - [Exercise 1 - Prepare Your Development Environment](../ex1/README.md)
