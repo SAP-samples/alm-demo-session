@@ -19,7 +19,7 @@ Click on "Administration" -> "Landscape Management" to open the Landscape Manage
 Open the Landscape Management configuration.
 <br>
 
-In the configuration you find the tray "SAP Cloud ALM Service Key". Expand the tray.
+In the configuration, you find the tray "SAP Cloud ALM Service Key". Expand the tray.
 <br>
 
 Use the "Download" button to download the service key.
@@ -47,7 +47,7 @@ Enter the following values (replace XX with your place number):
 
 Save your destination.
 
-In the end your destination should look like this:
+In the end, your destination should look like this:
 <br>
 
 ## Exercise 2.3 Activate Data Collection in SAP Cloud ALM
