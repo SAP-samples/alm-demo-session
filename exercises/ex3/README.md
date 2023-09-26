@@ -95,7 +95,7 @@ After this, your server.js file should look like this:
 Last but not least you have to add some properties to the mta.yaml
 
 Copy the following code into a Notepad
-```yaml
+```json
     properties:
 	      SAP_CALM_SERVICE_TYPE: SAP_CP_CF
 	      SAP_CALM_SERVICE_NAME: TechEd-demo-app-0XX
