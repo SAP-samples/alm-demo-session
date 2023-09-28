@@ -91,7 +91,7 @@ Click on the subaccount for your place number: XP261-0XX
 In the Subaccount Overview, you will find the API Endpoint for your Cloud Foundry Org.
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/712053ea-d1d9-44cb-a883-ac69d9a9e780)
 
-Copy the API Endpoint.
+For this Teched exercise, all subaccounts will be in the same region and hence have the same API endpoint. 
 
 Go back to your IntelliJ. 
 
@@ -122,14 +122,13 @@ cf deploy teched-demo-app_1.28.0.mtar
 
 Once the deployment is finished, you can find your deployed application in the BTP Cockpit.
 
-In the Subaccount Overview click on the link for the application in the "Spaces" area. (You might have to reload the browser window)
-<br>
+In the Subaccount Overview click on the link for the application in the "Spaces" area. (You have to reload the browser window)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f7297b2c-adf5-446e-8012-c6d24aa18a8e)
 
 In the "Applications" view you can see your two deployed apps. 
 - teched-demo-app-sv: This is the backend application
 - teched-demo-app-ui: This is the frontend application
-<br>
-
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4fe2d9d8-ee72-4fb8-aee8-0175fd2cc4ad)
 
 ## Summary
 
