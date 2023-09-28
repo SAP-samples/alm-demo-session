@@ -21,15 +21,15 @@ Paste the following URL: https://github.com/SAP-samples/teched2023-XP261/tree/ma
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
 You will now see the imported Node.js project in your IntelliJ project browser.
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/3cf26f2f-243a-49e3-baa8-6ddb74b8fdfc)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/6927f7de-e071-4882-a87e-758c1d50a8c2)
 
 In the project exist two branches. One contains the instrumented and one the non-instrumented version of the teched demo application.
 
 To check out the non-instrumented branch, right-click on the root folder of your project and select "Git" -> "Branches"
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/daee45b2-a0d0-4953-8f12-1aed85a1c6c6)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4ef137aa-ce3e-465a-8dbd-90abd9d808aa)
 
 Open the tree "Remote" -> "origin" and select the entry "non-instrumented". Then click on "Checkout"
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/93e6ad31-e23d-4150-988d-4d3c28eb4b54)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/04d740c0-9c2a-4d22-8939-8b70da6d4ee0)
 
 ## Exercise 1.2 Build initial Node.js application
 
@@ -38,10 +38,13 @@ We will now build and deploy the non-instrumented Node.js application.
 The first step is to install all dependencies required by the application. We have to do this for the UI and the server component.
 
 Select the tab "Terminal" in the lower left area of IntelliJ to open a new terminal.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/62f17bba-2d8c-46b3-ad0f-5d7e3932bde7)
 
-Switch to the ui folder using the command: cd ui
+Switch to the ui folder using the command: 
+```shell
+cd ui
 Then enter the command: npm install
+```
 <br>
 
 You can ignore any issues and warnings for now.
