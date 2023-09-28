@@ -71,49 +71,54 @@ Enter the command:
 ```shell
 mbt build -t .
 ```
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/6cd01020-8de1-458e-ad4c-fd46ccb11ff1)
 
 After the build is successfully finished, you will find a new file teched-demo-app_1.28.0.mtar in your project directory.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f16a984a-0109-4100-9df2-26d90f6a20e6)
 
 ## Exercise 1.3 Connect to Cloud Foundry
 
 Before you can deploy the application, you have to connect your local environment to the correct cloud foundry org.
 
-Go to the Teched Global Account in [BTP Cockpit]( <BTP GA link here>)
+Go to the Teched Global Account in [BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd)
 
 Log on with your Teched User: XP261-0XX@education.cloud.sap
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/5bc612e6-aa81-4796-887e-fe1a7f0a65bf)
 
 Click on the subaccount for your place number: XP261-0XX
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/cdf735df-b432-4307-942b-75352d3c7dd0)
 
-In the Subaccount Overview you will find the API Endpoint for your Cloud Foundry Org.
-<br>
+In the Subaccount Overview, you will find the API Endpoint for your Cloud Foundry Org.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/712053ea-d1d9-44cb-a883-ac69d9a9e780)
 
 Copy the API Endpoint.
 
 Go back to your IntelliJ. 
 
-In your terminal enter the command: cf api <api endpoint url>
-<br>
+In your terminal enter the command: 
+```shell
+cf api https://api.cf.eu10-004.hana.ondemand.com
+```
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/a08efb2a-456d-4306-b2b1-cd07410bf2d2)
 
-Enter the command: cf login
-<br>
-
+Enter the command: 
+```shell
+cf login --origin tdct3ched1-platform 
+```
 Log on with your Teched user and password.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/291f2c83-d2a4-4c57-bbc2-aebf89a64d2e)
 
-Select the org for your place number from the list: <xxxx>
-<br>
-
-You are now logged on to the Cloud Foundry org and your deployment will target the Teched demo space <XXXXX>
+You are now logged on to the Cloud Foundry org and your deployment will target the Teched demo space XP261-0XX.
 
 ## Exercise 1.4 Deploy initial Node.js application
 
 The last step in this exercise is to deploy the Node.js application into the Cloud Foundry org.
 
-In your terminal in IntelliJ run the command: cf deploy teched-demo-app_1.28.0.mtar
-<br>
+In your terminal in IntelliJ run the command: 
+```shell
+cf deploy teched-demo-app_1.28.0.mtar
+```
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f310d263-10b7-4bc5-a84f-cebf554d3112)
 
 Once the deployment is finished, you can find your deployed application in the BTP Cockpit.
 
