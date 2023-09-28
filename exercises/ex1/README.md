@@ -43,14 +43,22 @@ Select the tab "Terminal" in the lower left area of IntelliJ to open a new termi
 Switch to the ui folder using the command: 
 ```shell
 cd ui
-Then enter the command: npm install
 ```
-<br>
-
+Then enter the command: 
+```shell
+npm install
+```
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f49a9593-5aba-4478-8a57-97fe9a4584f4)
 You can ignore any issues and warnings for now.
 
-After the installation finished, move to the server folder using the command: cd ../server
-Again enter the command: npm install
+After the installation is finished, move to the server folder using the command: 
+```shell
+cd ../server
+```
+Again enter the command: 
+```shell
+npm install
+```
 <br>
 
 Now you can build the application. 
