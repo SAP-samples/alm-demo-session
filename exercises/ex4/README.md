@@ -14,7 +14,20 @@ The SAP BTP Cloud Foundry environment in which your instrumented app is running 
 
 On the Overview screen, you can see the card of your SAP BTP Cloud Foundry environment. In the card, you see an overview of the collected metrics.
 Click on the name to drill into the details.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/0edaa964-274b-4be6-a7dd-6625b12ca3c6)
+
+In the "Requests" view you can drill further down:
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/32adbf46-7ae8-482e-9dba-7fda8a0a504d)
+
+Sort the next list by Average Response Time:
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/b9c67dce-11f5-429b-bf4a-029db2437224)
+
+Click on the name of the longest-running request:
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2d2d0678-c32e-4769-bc55-1d7d93345948)
+
+Click on the Execution:
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/184fa315-07f2-4f64-88c1-15b2433191f1)
+
 
 
 ## Exercise 4.2 Check metrics in Health Monitoring
@@ -25,8 +38,16 @@ Go back to the SAP Cloud ALM Launchpad and click "SAP Cloud ALM for Operations" 
 SAP BTP Cloud Foundry environment in which your instrumented app is running is already in scope for Health Monitoring.
 
 On the Overview screen, you can see the card of your SAP BTP Cloud Foundry environment. In the card, you see an overview of the collected metrics.
-Click on the name to drill into the details.
-<br>
+Click on the service type to drill into the details.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/84c8ac05-f9e2-422c-b704-3ed7dd53616a)
+
+Click on the line for your service:
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/fee054ba-8ee2-4204-861a-6add08f1bc56)
+
+In the detail screen, you can see all metrics that are currently supported for Node.js
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/3a57ee84-1933-4b03-b0fd-a6dc0c92c683)
+
+
 
 
 ## Summary
