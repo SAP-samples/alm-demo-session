@@ -153,28 +153,28 @@ In your terminal in IntelliJ run the command:
 ```shell
 cf deploy teched-demo-app_1.28.0.mtar
 ```
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/25596fd0-9e42-4653-925c-38562c9d7f9b)
 
 Once the deployment is finished, you can find your running application in the BTP Cockpit.
 
 ## Exercise 3.4 Create some traffic in your application
 
 In the Subaccount Overview click on the link for the application in the "Spaces" area. (You have to reload the browser window)
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/613f4713-38a9-49f5-b814-33f5b0cdefc7)
 
 In the "Applications" view you can see your two deployed apps. 
 - teched-demo-app-sv: This is the backend application
 - teched-demo-app-ui: This is the frontend application
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/0ff9d8a2-d597-454a-b1f1-f358b8b70ea0)
 
 Right-click on the app teched-demo-app-ui and select "Open link in new tab"
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/0e624459-612c-4c84-b4e2-674a34fd5def)
 
 In the new tab, click on the link under "Application Routes"
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bab2a2bf-cca7-4d35-adc5-59b58fc79d05)
 
 The application will open in a new tab. 
-<br>
+<br>![Uploading image.png…]()
 
 Click around in the application to create some traffic. Filter for jobs and drill into the table. This will create metrics that you can later see in Real User Monitoring.
 
