@@ -81,17 +81,17 @@ In the server folder open the file server.js
 
 Insert the following code as the new first line of the file
 ```js
-    const tracer = require('@sap/xotel-agent-ext-js/dist/common/tracer');
+const tracer = require('@sap/xotel-agent-ext-js/dist/common/tracer');
 ```
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/90bfadda-9fd1-4748-96b0-b2e44275dec5)
 
 Now in the same file add the following line of code after line 10
 ```js
-    const fesr = require("@sap/fesr-to-otel-js");
+const fesr = require("@sap/fesr-to-otel-js");
 ```
 And add the following line after the new line 15
 ```js
-    fesr.registerFesrEndpoint(app)
+fesr.registerFesrEndpoint(app)
 ```
 
 After this, your server.js file should look like this:
