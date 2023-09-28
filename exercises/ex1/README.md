@@ -14,6 +14,9 @@ Open the IntelliJ IDEA Community Edition app on your Teched laptop:
 Select "Get from VCS"
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/23db97d8-640b-4107-bdc9-c57a791a4fe1)
 
+If IntelliJ opens with an already added project, please choose File > New > Project from Version Control
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/61a6c234-bd1c-49b6-ad75-934596d87346)
+
 Paste the following URL: https://github.com/SAP-samples/teched2023-XP261/tree/main/exercises/mock-app
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
