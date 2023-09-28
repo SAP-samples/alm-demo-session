@@ -71,23 +71,28 @@ Switch the data collection for your SAP BTP, Cloud Foundry environment from OFF 
 After the activation, the service should have the status "Active".
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/14202ca6-9d26-4822-b34f-7d9cd60a12ec)
 
-Go back to the SAP Cloud ALM Launchpad and click "SAP Cloud ALM for Operations" -> "Health Monitoring"
-<br>
+Go back to the SAP Cloud ALM Launchpad and click "SAP Cloud ALM for Operations" > "Health Monitoring"
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2c89d95d-c61c-4c8c-8848-59f6adb42da7)
 
-Open the Scope Selection and click on "Toggle Filter Bar"
-<br>
+Open the Scope Selection
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/6adb5fa3-343f-4588-866f-8809face65eb)
+
+Click on "Toggle Filter Bar"
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2d5700a6-1bc9-4a97-86ec-925bd2fa1011)
 
 Change the "Service Status" to "All"
-<br> 
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/49abf8d6-bbe4-48e2-92e7-eee56c98f33a)
 
 Select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. Click "Apply".
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/dc4a6e94-4384-4f2f-b68f-beb8e871c33e)
 
 Open the Health Monitoring configuration
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bfe3853b-fbf8-4f77-be60-d70f1e3ca668)
 
 Switch the data collection for your SAP BTP, Cloud Foundry environment from OFF to ON.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/a556f951-1207-4c80-8e04-62ef8608580b)
+
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/a1235d3a-bc9b-40ab-b877-b1e2a177fa9e)
 
 ## Summary
 
