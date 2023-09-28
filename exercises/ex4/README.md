@@ -8,7 +8,7 @@ The metrics sent by the custom application are attached to the SAP BTP Cloud Fou
 Go to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) tenant.
 
 Click "SAP Cloud ALM for Operations" -> "Real User Monitoring"
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/931bd470-9b09-41b5-a067-d4339e71728d)
 
 The SAP BTP Cloud Foundry environment in which your instrumented app is running is already in scope for Real User Monitoring.
 
@@ -19,11 +19,8 @@ Click on the name to drill into the details.
 
 ## Exercise 4.2 Check metrics in Health Monitoring
 
-Go back to the SAP Cloud ALM Launchpad
-<br>
-
-Click "SAP Cloud ALM for Operations" -> "Health Monitoring"
-<br>
+Go back to the SAP Cloud ALM Launchpad and click "SAP Cloud ALM for Operations" > "Health Monitoring"
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2c89d95d-c61c-4c8c-8848-59f6adb42da7)
 
 SAP BTP Cloud Foundry environment in which your instrumented app is running is already in scope for Health Monitoring.
 
