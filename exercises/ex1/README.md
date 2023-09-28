@@ -20,14 +20,13 @@ If IntelliJ opens with an already added project, please choose File > New > Proj
 Paste the following URL: https://github.com/SAP-samples/teched2023-XP261/tree/main/exercises/mock-app
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
-You will now see the imported Java project in your IntelliJ project browser.
-<br> screenshot
+You will now see the imported Node.js project in your IntelliJ project browser.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/3cf26f2f-243a-49e3-baa8-6ddb74b8fdfc)
 
 In the project exist two branches. One contains the instrumented and one the non-instrumented version of the teched demo application.
 
-To checkout the non-instrumented branch, right-click on the root folder of you project and select "Git" -> "Branches"
+To check out the non-instrumented branch, right-click on the root folder of your project and select "Git" -> "Branches"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/daee45b2-a0d0-4953-8f12-1aed85a1c6c6)
-
 
 Open the tree "Remote" -> "origin" and select the entry "non-instrumented". Then click on "Checkout"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/93e6ad31-e23d-4150-988d-4d3c28eb4b54)
