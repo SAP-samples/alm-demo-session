@@ -11,13 +11,15 @@ The destination points to the SAP Cloud ALM API in SAP Cloud ALM. To authenticat
 The service key for the SAP Cloud ALM APIs was uploaded to the Landscape Management in your SAP Cloud ALM tenant. From there we will now retrieve it.
 
 Log on to [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your Teched user.
-<br>
 
-Click on "Administration" -> "Landscape Management" to open the Landscape Management application.
-<br>
+Click on "Administration" > "Landscape Management" to open the Landscape Management application.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/da2aa2e2-3ecc-49bc-8f1f-5b71be8e2aa6)
+
+If you open Landscape Management for the first time the scope selection will come up. You can just select all service types and click "Apply"
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/df9ac645-cfb8-40c5-924b-06bf257b0e66)
 
 Open the Landscape Management configuration.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2d86f221-ca50-451b-9842-8efdfc6e39ef)
 
 In the configuration, you find the tray "SAP Cloud ALM Service Key". Expand the tray.
 <br>
