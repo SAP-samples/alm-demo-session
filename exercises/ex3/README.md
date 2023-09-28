@@ -174,7 +174,7 @@ In the new tab, click on the link under "Application Routes"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bab2a2bf-cca7-4d35-adc5-59b58fc79d05)
 
 The application will open in a new tab. 
-<br>![Uploading image.png…]()
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/5eedb189-594b-4bd5-a92b-380694be7498)
 
 Click around in the application to create some traffic. Filter for jobs and drill into the table. This will create metrics that you can later see in Real User Monitoring.
 
