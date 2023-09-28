@@ -56,7 +56,7 @@ In the end, your destination should look like this:
 
 Go back to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) tenant.
 
-Click "SAP Cloud ALM for Operations" -> "Real User Monitoring"
+Click "SAP Cloud ALM for Operations" > "Real User Monitoring"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/931bd470-9b09-41b5-a067-d4339e71728d)
 
 Open the Scope Selection and select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. Click "Apply".
