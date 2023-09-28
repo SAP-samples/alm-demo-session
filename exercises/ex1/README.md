@@ -59,13 +59,18 @@ Again enter the command:
 ```shell
 npm install
 ```
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/02052a1f-eb94-49a8-9e80-7d8729a601e8)
 
 Now you can build the application. 
 
-Switch back to the root directory using the command: cd ..
-
-Enter the command: mbt build -t .
+Switch back to the root directory using the command: 
+```shell
+cd ..
+```
+Enter the command: 
+```shell
+mbt build -t .
+```
 <br>
 
 After the build is successfully finished, you will find a new file teched-demo-app_1.28.0.mtar in your project directory.
