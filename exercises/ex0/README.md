@@ -7,7 +7,7 @@ In this exercise, you will gather important information to execute your exercise
 During this Teched exercise, you will instrument a Java application and deploy it into an SAP BTP subaccount. You will then activate the monitoring for this Java application in a shared SAP Cloud ALM. 
 To avoid that it comes to conflicts between two applications, it is very important that you know your place number and execute the exercise using this place number.
 Please check the sign on your table. The number on this sign is your place number. 
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/c1d342b1-02d0-47be-8942-5f13dc396ffb)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/54932772-3d0a-4d2c-9030-23fdcc52c170)
 
 ## Login Information
 
