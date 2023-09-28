@@ -93,9 +93,8 @@ And add the following line after the new line 15
 ```js
 fesr.registerFesrEndpoint(app)
 ```
-
 After this, your server.js file should look like this:
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/336c7cc8-bcde-466d-8685-d1dc9506ebab)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/9d0890e5-862c-401f-9c7e-65209e71e9dc)
 
 ### Add Properties to mta.yaml
 Last but not least you have to add some properties to the mta.yaml
