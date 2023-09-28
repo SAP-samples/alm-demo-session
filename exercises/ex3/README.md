@@ -65,8 +65,14 @@ Don't forget to add a ',' behind the entry in line 31.
 
 With the new dependencies, we have to rerun the npm install.
 
-In the terminal in IntelliJ go to the server directory using the command: cd server
-Then run the command: npm install
+In the terminal in IntelliJ go to the server directory using the command: 
+```shell
+cd server
+```
+Then run the command: 
+```shell
+npm install
+```
 <br>
 
 ### Add tracer and FESR receiver server.js
@@ -95,7 +101,7 @@ After this, your server.js file should look like this:
 Last but not least you have to add some properties to the mta.yaml
 
 Copy the following code into a Notepad
-```json
+```
     properties:
 	      SAP_CALM_SERVICE_TYPE: SAP_CP_CF
 	      SAP_CALM_SERVICE_NAME: TechEd-demo-app-0XX
@@ -103,14 +109,23 @@ Copy the following code into a Notepad
 	      OTEL_RESOURCE_ATTRIBUTES: account=TechEd-demo-app-0XX,sap.tenancy.tenant_id=<your subaccount id>    
 ```
 
-Replace the XX in SAP_CALM_SERVICE_NAME and OTEL_RESOURCE_ATTRIBUTES with your place number.
+Replace the XX in the properties SAP_CALM_SERVICE_NAME and OTEL_RESOURCE_ATTRIBUTES with your **place number**.
 
-Now go to your subaccount in the [SAP BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/accountModel&//?section=SubaccountsSection&view=TreeTableView)
+Now go to your _subaccount_ via the [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd)
 
-In the Subaccount Overview you will find the subaccount ID
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/c11a13c8-3adb-4ad9-b1c1-34b134a05a86)
+In the Subaccount Overview, you will find the _subaccount ID_
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bf89722d-a3c2-4fab-ae7c-16823c4271fc)
 
-Copy the value and enter it as value for sap.tenancy.tenant_id in your code fragment.
+Copy the value and enter it as value for **sap.tenancy.tenant_id** in your code fragment.
+
+Your code fragment should now look similar to this:
+```
+    properties:
+	      SAP_CALM_SERVICE_TYPE: SAP_CP_CF
+	      SAP_CALM_SERVICE_NAME: TechEd-demo-app-001
+	      OTEL_POLL_INTERVAL: 300
+	      OTEL_RESOURCE_ATTRIBUTES: account=TechEd-demo-app-001,sap.tenancy.tenant_id=87993b94-3664-40cc-9156-db9b50b08c94
+```
 
 In the project root folder open the file mta.yaml
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4ecfcf89-6d48-4079-94a6-136641838389)
