@@ -127,29 +127,39 @@ Your code fragment should now look similar to this:
 ```
 
 In the project root folder open the file mta.yaml
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4ecfcf89-6d48-4079-94a6-136641838389)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2bb1acc4-896c-4c12-b759-dfb222780400)
 
 Add the code from your Notepad after line 23 in the mta.yaml
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/d4809e3d-99bd-4b82-b1d4-ca3cdbca294a)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/79018fce-d60d-4dbe-ad3d-7203c1fb7932)
 
 ## Exercise 3.3 Deploy instrumented Node.js application
 
 Now you can build and deploy your application again.
 
-Switch back to the root directory using the command: cd ..
-Enter the command: mbt build -t .
-<br>
+Switch back to the root directory using the command: 
+```shell
+cd ..
+```
+Enter the command: 
+```shell
+mbt build -t .
+```
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bb17127d-7cf9-48a1-acb1-e8fc6da2830d)
 
 After the build is successfully finished, you will find a new file teched-demo-app_1.28.0.mtar in your project directory.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/877924c7-930c-48dc-a3fc-423bf1b50d1f)
 
-In your terminal in IntelliJ run the command: cf deploy teched-demo-app_1.28.0.mtar
+In your terminal in IntelliJ run the command: 
+```shell
+cf deploy teched-demo-app_1.28.0.mtar
+```
 <br>
 
 Once the deployment is finished, you can find your running application in the BTP Cockpit.
 
 ## Exercise 3.4 Create some traffic in your application
 
-In the Subaccount Overview click on the link for the application in the "Spaces" area. (You might have to reload the browser window)
+In the Subaccount Overview click on the link for the application in the "Spaces" area. (You have to reload the browser window)
 <br>
 
 In the "Applications" view you can see your two deployed apps. 
