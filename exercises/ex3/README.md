@@ -73,11 +73,11 @@ Then run the command:
 ```shell
 npm install
 ```
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/343e95d2-9d4a-464c-86f6-795624bdc4d5)
 
 ### Add tracer and FESR receiver server.js
 In the server folder open the file server.js
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/a872c077-b8ea-43bb-99d9-78db7c0d3cd5)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/27cce1f9-fa35-4c78-87d4-c3aed874a049)
 
 Insert the following code as the new first line of the file
 ```js
