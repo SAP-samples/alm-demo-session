@@ -22,21 +22,21 @@ Open the Landscape Management configuration.
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2d86f221-ca50-451b-9842-8efdfc6e39ef)
 
 In the configuration, you find the tray "SAP Cloud ALM Service Key". Expand the tray.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f107b4d5-3c86-430a-abe8-2c29680524ee)
 
 Use the "Download" button to download the service key.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/ba3cdd7d-020e-4c56-8f5a-618b4e6522ef)
 
 ## Exercise 2.2 Create Destination in BTP Cockpit
 
-Go back to [SAP BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd/accountModel&//?section=SubaccountsSection&view=TreeTableView) and enter your subaccount. Click on "Connectivity" -> "Destinations"
-<br>
+Go back to [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd) and enter your subaccount. Click on "Connectivity" -> "Destinations"
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bd8b7f95-b118-43cf-8a69-35e33a270373)
 
 Click "New Destination"
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/b99546f5-2171-4a66-a6a1-7f6c4ed1cd34)
 
 Enter the following values (replace XX with your place number):
-- Name: CALM_datacollector_XP261-XX
+- Name: CALM_datacollector_XP261-0XX
 - Type: HTTP
 - URL: Enter endpoints:Api from the service key (1)
 - Proxy Type: Internet
@@ -44,35 +44,34 @@ Enter the following values (replace XX with your place number):
 - Client ID: Enter uaa:clientid from the service key (2)
 - Client Secret: Enter uaa:clientsecret from the service key (3)
 - Token Service URL Type: Dedicated
-- Token Service URL: Enter uaa:url from the service key (4) and add /oauth/token at the end
+- Token Service URL: Enter uaa:url from the service key (4)
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/170b4a57-0aaf-4b00-9e90-30350e48f4ea)
-
 
 Save your destination.
 
 In the end, your destination should look like this:
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/1b768df0-e72e-451d-9f47-a980a9573c27)
 
 ## Exercise 2.3 Activate Data Collection in SAP Cloud ALM
 
 Go back to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) tenant.
 
 Click "SAP Cloud ALM for Operations" -> "Real User Monitoring"
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/931bd470-9b09-41b5-a067-d4339e71728d)
 
 Open the Scope Selection and select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. Click "Apply".
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/8066c287-4b6b-47bc-a459-fb18cd74cd7f)
 
 Open the Real User Monitoring configuration
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/853c72ef-3e54-4179-9c86-6e61f1117b59)
 
 Switch the data collection for your SAP BTP, Cloud Foundry environment from OFF to ON.
-<br>
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/425d3fa0-b3ef-4953-8a84-859df4397b95)
 
-Go back to the SAP Cloud ALM Launchpad
-<br>
+After the activation, the service should have the status "Active".
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/14202ca6-9d26-4822-b34f-7d9cd60a12ec)
 
-Click "SAP Cloud ALM for Operations" -> "Health Monitoring"
+Go back to the SAP Cloud ALM Launchpad and click "SAP Cloud ALM for Operations" -> "Health Monitoring"
 <br>
 
 Open the Scope Selection and click on "Toggle Filter Bar"
