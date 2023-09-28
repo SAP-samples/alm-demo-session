@@ -18,7 +18,7 @@ Insert this line of code after line 6.
 
 ### Add FESR route to xs-app.json 
 Now open the xs-app.json file in the ui folder
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/04b238b8-049f-42ba-a6eb-1f2f102942cb)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/419e0ae5-d346-46c0-9dad-ec787ebf9fc9)
 
 Insert the following code after line 2.
 ```json
