@@ -18,6 +18,7 @@ If IntelliJ opens with an already added project, please choose File > New > Proj
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/61a6c234-bd1c-49b6-ad75-934596d87346)
 
 Paste the following URL: https://github.com/SAP-samples/teched2023-XP261/tree/main/exercises/mock-app
+Correction required: Clone fails with this subfolder. I guess the right clone url is https://github.com/SAP-samples/teched2023-XP261.git. Also it asks for github login to clone. Need to specify which user/pwd the users can use.
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
 You will now see the imported Node.js project in your IntelliJ project browser.
