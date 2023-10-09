@@ -1,0 +1,48 @@
+{
+  "xsappname": "job-overview",
+  "tenant-mode": "dedicated",
+  "description": "Security profile of called application",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.A2AAdmin",
+      "description": "With this scope, admin can do everything"
+    },
+    {
+      "name": "$XSAPPNAME.A2ADisplay",
+      "description": "With this scope, user can read data but not run jobs"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "A2AAdmin",
+      "description": "Role where admin can do everything",
+      "scope-references": ["$XSAPPNAME.A2AAdmin"]
+    },
+    {
+      "name": "A2ADisplay",
+      "description": "Role where user can read data but not run jobs",
+      "scope-references": ["$XSAPPNAME.A2ADisplay"]
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "JobOverview_Admin",
+      "description": "A2AAdmin has all rights",
+      "role-template-references": ["$XSAPPNAME.A2AAdmin"]
+    },
+    {
+      "name": "JobOverview_Display",
+      "description": "A2ADisplay has viewing rights",
+      "role-template-references": ["$XSAPPNAME.A2ADisplay"]
+    }
+  ],
+  "oauth2-configuration": {
+    "token-validity": 86300,
+    "refresh-token-validity": 259200,
+    
+    "redirect-uris":[
+        "https://job-overview-ui.cfapps.eu10-004.hana.ondemand.com/**",
+        "http://localhost:5000/**"
+    ]  
+}
+}

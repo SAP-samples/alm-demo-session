@@ -1,0 +1,21 @@
+{
+  "name": "approuter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js",
+    "localStart": "nodemon node_modules/@sap/approuter/approuter.js",
+    "localServer": "node localServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/approuter": "^14.1.2",
+    "@sap/xsenv": "^4.0.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
