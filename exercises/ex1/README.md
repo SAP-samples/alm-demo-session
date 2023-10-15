@@ -17,13 +17,13 @@ Select "Get from VCS"
 If IntelliJ opens with an already added project, please choose File > New > Project from Version Control
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/61a6c234-bd1c-49b6-ad75-934596d87346)
 
-Paste the following URL: https://github.com/SAP-samples/teched2023-XP261/tree/main/exercises/mock-app
+Paste the following URL: https://github.com/SAP-samples/teched2023-XP261.git. Then click on "Clone"
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
 You will now see the imported Node.js project in your IntelliJ project browser.
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/6927f7de-e071-4882-a87e-758c1d50a8c2)
 
-In the project exist two branches. One contains the instrumented and one the non-instrumented version of the teched demo application.
+In the project there is a branch called 'non-instrumented' which is a non instrumented version of the teched demo application.
 
 To check out the non-instrumented branch, right-click on the root folder of your project and select "Git" -> "Branches"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4ef137aa-ce3e-465a-8dbd-90abd9d808aa)
