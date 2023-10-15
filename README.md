@@ -6,7 +6,7 @@
 
 This repository contains the material for the SAP TechEd 2023 session called XP261 - Observability for your SAP BTP Applications with SAP Cloud ALM.  
 
-SAP Cloud ALM provides a new Data Collection Infrastructure that offers a standardized way to collect monitoring data using Open Telemetry. With this, instrumentation efforts for your PaaS applications on SAP BTP, Cloud Foundry environment are reduced to a bare minimum. Get an overview of the concept and learn how to instrument your applications – and how this results in monitoring data coming up in SAP Cloud ALM applications like Exception Monitoring, Health Monitoring, and Real User Monitoring.
+SAP Cloud ALM provides a [Next Generation Data Collection Infrastructure](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/data-collection-infrastructure.html) that offers a standardized way to collect monitoring data using Open Telemetry. With this, instrumentation efforts for your PaaS applications on SAP BTP, Cloud Foundry environment are reduced to a bare minimum. Get an overview of the concept and learn how to instrument your applications – and how this results in monitoring data coming up in SAP Cloud ALM applications like Exception Monitoring, Health Monitoring, and Real User Monitoring.
 
 ## Overview
 
