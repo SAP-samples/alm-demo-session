@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express');
 const bodyParser = require('body-parser');
-const db = require('./db');
+
 const scopeCheck = require('./utils/scopeCheck');
 const jobDetails = require('./src/jobDetails');
 const jobStatus = require('./src/jobStatus');
@@ -26,16 +26,19 @@ app.get('/srv/getCsrfToken', (req, res, next) => {
     res.send("okay");
 });
 app.get('/srv/getCount/:jobId', (req, res) => {
-    const tableName = 'A2AJOB_SCHEDULE_DCR';
     let jobId = req.params.jobId;
-    db.getCount(tableName, jobId, (err, result) => {
-        if (err) {
-            console.error('Error fetching data:', err);
-            const error = new Error('Failed to fetch data from the database');
-            error.status = 500;
-            return next(error);
+
+    const jobDetails = require('./jobDetails')
+
+    for (let job of jobDetails) {
+        if (job.jobID === jobId) {
+            return res.json({
+                count: job.jobDetails.length
+            });
         }
-        res.json(result);
+    }
+    return res.json({
+        count: 0
     });
 });
 app.get('/srv/getUser', (req, res) => {
@@ -44,14 +47,6 @@ app.get('/srv/getUser', (req, res) => {
 
 // Error handling middleware
 app.use((err, req, res, next) => {
-    if (req.db) {
-        req.db.rollback();
-        req.logObj.addLog(error, 'error');
-        req.logObj.addDbLogs(req.db.getLogs());
-        req.db.insertLog(req.logObj.getLog());
-        req.logObj.writeLog();
-        req.db.closeConnection();
-    }
     console.error(err);
     const status = err.status || 500;
     res.status(status).send({

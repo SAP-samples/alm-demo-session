@@ -1,4 +1,3 @@
-const db = require('../db');
 const scopeCheck = require('../utils/scopeCheck');
 const AxiosConnectionPool = require("../auth/connectionPool");
 class JobDetails {
