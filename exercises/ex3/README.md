@@ -104,6 +104,7 @@ Copy the following code into a Notepad
     properties:
 	      SAP_CALM_SERVICE_TYPE: SAP_CP_CF
 	      SAP_CALM_SERVICE_NAME: TechEd-demo-app-0XX
+              SAP_CALM_DCI_AGG_THRESHOLD: 1
 	      OTEL_POLL_INTERVAL: 300
 	      OTEL_RESOURCE_ATTRIBUTES: account=TechEd-demo-app-0XX,sap.tenancy.tenant_id=<your subaccount id>    
 ```
@@ -124,6 +125,7 @@ Your code fragment should now look similar to this:
     properties:
 	      SAP_CALM_SERVICE_TYPE: SAP_CP_CF
 	      SAP_CALM_SERVICE_NAME: TechEd-demo-app-001
+              SAP_CALM_DCI_AGG_THRESHOLD: 1
 	      OTEL_POLL_INTERVAL: 300
 	      OTEL_RESOURCE_ATTRIBUTES: account=TechEd-demo-app-001,sap.tenancy.tenant_id=87993b94-3664-40cc-9156-db9b50b08c94
 ```
