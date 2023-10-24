@@ -7,7 +7,7 @@ Now comes the most important part. In this exercise, we will finally instrument 
 Let's start with the UI application. Here we have to add the FESR instrumentation to collect Frontend Statistics Records.
 
 ### Add FESR beacon to index.html
-In your project in IntelliJ expand ui > webapp and open the index.html file
+In your project in IntelliJ expand teched-demo-app > ui > webapp and open the index.html file
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/c0604c4d-348e-4dd2-be5f-b1e2126599d3)
 
 Insert this line of code after line 6.
@@ -17,7 +17,7 @@ Insert this line of code after line 6.
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/e2181889-d23e-46dc-b599-611d2265b6c5)
 
 ### Add FESR route to xs-app.json 
-Now open the xs-app.json file in the ui folder
+Now open the xs-app.json file in the expand teched-demo-app > ui folder
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/419e0ae5-d346-46c0-9dad-ec787ebf9fc9)
 
 Insert the following code after line 2.
@@ -39,9 +39,9 @@ Now your ui application can send Frontend Statistics Records to the server appli
 The next step is to instrument your server application. Before we start with this we have to enable your application to download the OTEL ALM Libraries.
 
 ### Configure Download Settings
-The OTEL ALM Libraries are shipped by SAP Repository Based Shipment Channel (RSBC). To access them you need a technical user name and password in the RBSC. 
+The OTEL ALM Libraries are shipped by SAP Repository Based Shipment Channel (RSBC). To access them you need a technical username and password in the RBSC. 
 We already requested a user for you.
-In your IntelliJ project expand the server folder and open the .npmrc file
+In your IntelliJ project expand the expand teched-demo-app > server folder and open the .npmrc file
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/fcc8ec69-63c8-489e-a9d2-94479bf2090a)
 
 Replace the current content with this line of code
@@ -52,7 +52,7 @@ Replace the current content with this line of code
 
 ### Add Dependencies
 Now you have to add the OTEL agent dependencies. 
-In the server folder open the package.json file
+In the teched-demo-app > server folder open the package.json file
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/ca9b4aee-c471-49d7-b868-8968554366db)
 
 Insert the following code after line 31.
@@ -60,7 +60,7 @@ Insert the following code after line 31.
     "@sap/xotel-agent-ext-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/xotel-agent-ext-js/-/xotel-agent-ext-js-1.5.2.tgz",
     "@sap/fesr-to-otel-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/fesr-to-otel-js/-/fesr-to-otel-js-1.5.0.tgz"
 ```
-Don't forget to add a ',' behind the entry in line 31.
+**Don't forget to add a ',' behind the entry in line 31.**
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/02f9b4a7-3aea-4e2f-bb10-883b14ea428a)
 
 With the new dependencies, we have to rerun the npm install.
@@ -76,7 +76,7 @@ npm install
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f32c4379-448b-41f0-bd88-559becf33efa)
 
 ### Add tracer and FESR receiver server.js
-In the server folder open the file server.js
+In the teched-demo-app > server folder open the file server.js
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/27cce1f9-fa35-4c78-87d4-c3aed874a049)
 
 Insert the following code as the new first line of the file
@@ -112,6 +112,8 @@ Replace the XX in the properties SAP_CALM_SERVICE_NAME and OTEL_RESOURCE_ATTRIBU
 
 Now go to your _subaccount_ via the [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd)
 
+Enter your subaccount.
+
 In the Subaccount Overview, you will find the _subaccount ID_
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bf89722d-a3c2-4fab-ae7c-16823c4271fc)
 
@@ -126,10 +128,10 @@ Your code fragment should now look similar to this:
 	      OTEL_RESOURCE_ATTRIBUTES: account=TechEd-demo-app-001,sap.tenancy.tenant_id=87993b94-3664-40cc-9156-db9b50b08c94
 ```
 
-In the project root folder open the file mta.yaml
+In the teched-demo-app folder open the file mta.yaml
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2bb1acc4-896c-4c12-b759-dfb222780400)
 
-Add the code from your Notepad after line 23 in the mta.yaml
+Add the code from your Notepad after line 23 (after the property "path") in the mta.yaml
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/79018fce-d60d-4dbe-ad3d-7203c1fb7932)
 
 ## Exercise 3.3 Deploy instrumented Node.js application
