@@ -17,13 +17,14 @@ Select "Get from VCS"
 If IntelliJ opens with an already added project, please choose File > New > Project from Version Control
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/61a6c234-bd1c-49b6-ad75-934596d87346)
 
-Paste the following URL: https://github.com/SAP-samples/teched2023-XP261.git. Then click on "Clone"
+Paste the following URL: https://github.com/SAP-samples/teched2023-XP261.git 
+Then click on "Clone".
 <br>![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)
 
 You will now see the imported Node.js project in your IntelliJ project browser.
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/6927f7de-e071-4882-a87e-758c1d50a8c2)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/28ce30df-dc99-44c4-aff0-45dc25568d12)
 
-In the project there is a branch called 'non-instrumented' which is a non instrumented version of the teched demo application.
+In the project, there is a branch called 'non-instrumented' which is a non-instrumented version of the teched demo application.
 
 To check out the non-instrumented branch, right-click on the root folder of your project and select "Git" -> "Branches"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4ef137aa-ce3e-465a-8dbd-90abd9d808aa)
@@ -38,11 +39,11 @@ We will now build and deploy the non-instrumented Node.js application.
 The first step is to install all dependencies required by the application. We have to do this for the UI and the server component.
 
 Select the tab "Terminal" in the lower left area of IntelliJ to open a new terminal.
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/62f17bba-2d8c-46b3-ad0f-5d7e3932bde7)
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2b98eed1-b091-4967-b80f-205fefbe6335)
 
 Switch to the ui folder using the command: 
 ```shell
-cd ui
+cd .\teched-demo-app\ui
 ```
 Then enter the command: 
 ```shell
@@ -53,7 +54,7 @@ You can ignore any issues and warnings for now.
 
 After the installation is finished, move to the server folder using the command: 
 ```shell
-cd ../server
+cd ..\server\
 ```
 Again enter the command: 
 ```shell
