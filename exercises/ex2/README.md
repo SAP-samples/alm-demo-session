@@ -18,6 +18,9 @@ Click on "Administration" > "Landscape Management" to open the Landscape Managem
 If you open Landscape Management for the first time the scope selection will come up. You can just select all service types and click "Apply"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/df9ac645-cfb8-40c5-924b-06bf257b0e66)
 
+If the scope selection doesn't come up, you can click the "Scope" button to open it.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/d9d6691e-57cf-4416-958f-59f3ee35990c)
+
 Open the Landscape Management configuration.
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2d86f221-ca50-451b-9842-8efdfc6e39ef)
 
@@ -38,6 +41,7 @@ Click "New Destination"
 Enter the following values (replace XX with your place number):
 - Name: CALM_datacollector_XP261-0XX
 - Type: HTTP
+- Description: Connection to SAP Cloud ALM
 - URL: Enter endpoints:Api from the service key (1)
 - Proxy Type: Internet
 - Authentication: OAuth2ClientCredentials
@@ -52,6 +56,9 @@ Save your destination.
 In the end, your destination should look like this:
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/1b768df0-e72e-451d-9f47-a980a9573c27)
 
+When you click the "Check Connection" button you should get this response:
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/b9c90439-fd22-455e-9de7-7cbdf91537cd)
+
 ## Exercise 2.3 Activate Data Collection in SAP Cloud ALM
 
 Go back to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) tenant.
@@ -59,8 +66,10 @@ Go back to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launch
 Click "SAP Cloud ALM for Operations" > "Real User Monitoring"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/931bd470-9b09-41b5-a067-d4339e71728d)
 
-Open the Scope Selection and select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. Click "Apply".
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/8066c287-4b6b-47bc-a459-fb18cd74cd7f)
+Open the Scope Selection and select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. 
+You can use the Live Search to filter for your place number.
+Click "Apply".
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/7d29179b-ca43-410a-a787-361ed722e264)
 
 Open the Real User Monitoring configuration
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/853c72ef-3e54-4179-9c86-6e61f1117b59)
@@ -77,14 +86,14 @@ Go back to the SAP Cloud ALM Launchpad and click "SAP Cloud ALM for Operations" 
 Open the Scope Selection
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/6adb5fa3-343f-4588-866f-8809face65eb)
 
-Click on "Toggle Filter Bar"
+In Health Monitoring only "Configured" services are visible in the scope selection by default. To find your configured BTP account, you have to change the filter parameter first. Click on "Toggle Filter Bar"
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2d5700a6-1bc9-4a97-86ec-925bd2fa1011)
 
-Change the "Service Status" to "All"
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/49abf8d6-bbe4-48e2-92e7-eee56c98f33a)
+Change the "Service Status" to "All" and press the "Go" button.
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/689cf4d6-9dc5-4e88-b1e7-12a8d243c04a)
 
-Select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. Click "Apply".
-<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/dc4a6e94-4384-4f2f-b68f-beb8e871c33e)
+Select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. You can again use the Live Search to filter for your place number. Click "Apply".
+<br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4b430b1c-2e60-4893-b50a-3f8c6ffb67a3)
 
 Open the Health Monitoring configuration
 <br>![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/bfe3853b-fbf8-4f77-be60-d70f1e3ca668)
