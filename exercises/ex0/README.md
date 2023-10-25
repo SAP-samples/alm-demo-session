@@ -18,7 +18,7 @@ In the SAP BTP Cockpit, you will only see the subaccount that is relevant for yo
 | Application | User ID | Password | URL |
 |---|---|---|---|
 | SAP Cloud ALM URL | XP261_**XXX**@education.cloud.sap | coming soon | [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) |
-| SAP BTP Cockpit | XP261_**XXX**@education.cloud.sap | coming soon | [Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd) |
+| SAP BTP Cockpit | XP261_**XXX**@education.cloud.sap | coming soon | [Global Account](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd) |
 
 ## Summary
 
