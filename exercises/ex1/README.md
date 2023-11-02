@@ -12,11 +12,11 @@ The first step is to copy the sample application from this GitHub repository to 
 
 Open the IntelliJ IDEA Community Edition app on your Teched laptop:
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/1f3c6050-dd18-444d-92fd-341135e04494)-->
-![image](image/1f3c6050-dd18-444d-92fd-341135e04494.png)
+![image](image/openintellij.png)
 
 Select "Get from VCS"
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/23db97d8-640b-4107-bdc9-c57a791a4fe1)-->
-![image](image/.png)
+![image](image/getfromvcs.png)
 
 If IntelliJ opens with an already added project, please choose File > New > Project from Version Control
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/61a6c234-bd1c-49b6-ad75-934596d87346)-->
@@ -25,7 +25,7 @@ If IntelliJ opens with an already added project, please choose File > New > Proj
 Paste the following URL: https://github.com/SAP-samples/teched2023-XP261.git 
 Then click on "Clone".
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)-->
-![image](image/e77ac5ec-2a6d-4e88-bf87-555a7a446978.png)
+![image](image/vcsclone.png)
 
 You will now see the imported Node.js project in your IntelliJ project browser.
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/28ce30df-dc99-44c4-aff0-45dc25568d12)-->
