@@ -1,6 +1,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP261)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-XP261)
 
-# Session ID - Session Title
+# XP261 - Observability for your SAP BTP Applications with SAP Cloud ALM
 
 ## Description
 
