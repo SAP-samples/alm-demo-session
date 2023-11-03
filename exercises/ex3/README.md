@@ -140,11 +140,12 @@ Add the code from your Notepad after line 23 (after the property "path") in the 
 
 Now you can build and deploy your application again.
 
-Switch back to the root directory using the command: 
+Switch back to the root directory and remove the existing file: 
 ```shell
 cd ..
+rm teched-demo-app_1.28.0.mtar
 ```
-Enter the command: 
+Now Enter the command: 
 ```shell
 mbt build -t .
 ```
