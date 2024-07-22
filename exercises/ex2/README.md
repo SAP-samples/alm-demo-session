@@ -10,7 +10,7 @@ The destination points to the SAP Cloud ALM API in SAP Cloud ALM. To authenticat
 
 The service key for the SAP Cloud ALM APIs was uploaded to the Landscape Management in your SAP Cloud ALM tenant. From there we will now retrieve it.
 
-Log on to [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your Teched user.
+Log on to [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) with your alm summit user.
 
 Click on "Administration" > "Landscape Management" to open the Landscape Management application.
 <br>![image](images/271245519-da2aa2e2-3ecc-49bc-8f1f-5b71be8e2aa6.png)
@@ -39,7 +39,7 @@ Click "New Destination"
 <br>![image](images/271267036-b99546f5-2171-4a66-a6a1-7f6c4ed1cd34.png)
 
 Enter the following values (replace XX with your place number):
-- Name: CALM_datacollector_XP261-0XX
+- Name: CALM_datacollector
 - Type: HTTP
 - Description: Connection to SAP Cloud ALM
 - URL: Enter endpoints:Api from the service key (1)

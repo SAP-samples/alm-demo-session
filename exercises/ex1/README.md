@@ -67,32 +67,37 @@ Navigate to the clone repository root folder and open it
 
 The Next step is to install all dependencies required by the application. We have to do this for the UI and the server component.
 
-Select the tab "Terminal" in the lower left area of IntelliJ to open a new terminal.
+Select the tab "Terminal" in the lower left area of VSCode to open a new terminal.
+
+![alt text](image-3.png)
+![alt text](image-4.png)
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2b98eed1-b091-4967-b80f-205fefbe6335)-->
-![image](image/2b98eed1-b091-4967-b80f-205fefbe6335.png)
+<!-- ![image](image/2b98eed1-b091-4967-b80f-205fefbe6335.png) -->
 
 Switch to the ui folder using the command: 
 ```shell
-cd .\teched-demo-app\ui
+cd alm-demo-app/ui
 ```
 Then enter the command: 
 ```shell
 npm install
 ```
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f49a9593-5aba-4478-8a57-97fe9a4584f4)-->
-![image](image/f49a9593-5aba-4478-8a57-97fe9a4584f4.png)
+<!-- ![image](image/f49a9593-5aba-4478-8a57-97fe9a4584f4.png) -->
+![alt text](image-5.png)
 You can ignore any issues and warnings for now.
 
 After the installation is finished, move to the server folder using the command: 
 ```shell
-cd ..\server\
+cd ../server/
 ```
 Again enter the command: 
 ```shell
 npm install
 ```
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/02052a1f-eb94-49a8-9e80-7d8729a601e8)-->
-![image](image/02052a1f-eb94-49a8-9e80-7d8729a601e8.png)
+<!-- ![image](image/02052a1f-eb94-49a8-9e80-7d8729a601e8.png) -->
+![alt text](image-6.png)
 
 Now you can build the application. 
 
@@ -105,11 +110,13 @@ Enter the command:
 mbt build -t .
 ```
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/6cd01020-8de1-458e-ad4c-fd46ccb11ff1)-->
-![image](image/6cd01020-8de1-458e-ad4c-fd46ccb11ff1.png)
+<!-- ![image](image/6cd01020-8de1-458e-ad4c-fd46ccb11ff1.png) -->
+![alt text](image-7.png)
 
-After the build is successfully finished, you will find a new file teched-demo-app_1.28.0.mtar in your project directory.
+After the build is successfully finished, you will find a new file alm-demo-app_1.28.0.mtar in your project directory.
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f16a984a-0109-4100-9df2-26d90f6a20e6)-->
-![image](image/f16a984a-0109-4100-9df2-26d90f6a20e6.png)
+<!-- ![image](image/f16a984a-0109-4100-9df2-26d90f6a20e6.png) -->
+![alt text](image-8.png)
 
 ## Exercise 1.3 Connect to Cloud Foundry
 
@@ -154,24 +161,27 @@ You are now logged on to the Cloud Foundry org and your deployment will target t
 
 The last step in this exercise is to deploy the Node.js application into the Cloud Foundry org.
 
-In your terminal in IntelliJ run the command: 
+In your terminal run the command: 
 ```shell
-cf deploy teched-demo-app_1.28.0.mtar
+cf deploy alm-demo-app_1.28.0.mtar
 ```
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f310d263-10b7-4bc5-a84f-cebf554d3112)-->
-![image](image/f310d263-10b7-4bc5-a84f-cebf554d3112.png)
+<!-- ![image](image/f310d263-10b7-4bc5-a84f-cebf554d3112.png) -->
+![alt text](image-9.png)
 
 Once the deployment is finished, you can find your deployed application in the BTP Cockpit.
 
 In the Subaccount Overview click on the link for the application in the "Spaces" area. (You have to reload the browser window)
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/f7297b2c-adf5-446e-8012-c6d24aa18a8e)-->
-![image](image/f7297b2c-adf5-446e-8012-c6d24aa18a8e.png)
+<!-- ![image](image/f7297b2c-adf5-446e-8012-c6d24aa18a8e.png) -->
+![alt text](image-10.png)
 
 In the "Applications" view you can see your two deployed apps. 
-- teched-demo-app-sv: This is the backend application
-- teched-demo-app-ui: This is the frontend application
+- alm-demo-app-sv: This is the backend application
+- alm-demo-app-ui: This is the frontend application
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4fe2d9d8-ee72-4fb8-aee8-0175fd2cc4ad)-->
-![image](image/4fe2d9d8-ee72-4fb8-aee8-0175fd2cc4ad.png)
+<!-- ![image](image/4fe2d9d8-ee72-4fb8-aee8-0175fd2cc4ad.png) -->
+![alt text](image-11.png)
 
 ## Summary
 
