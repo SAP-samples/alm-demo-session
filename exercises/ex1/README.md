@@ -8,44 +8,64 @@ In our sample scenario, we assume, that we want to monitor a full-stack applicat
 
 ## Exercise 1.1 Copy Code from GitHub
 
-The first step is to copy the sample application from this GitHub repository to your local development environment on your Teched laptop.
+The first step is to copy the sample application from this GitHub repository to your local development environment on your laptop.
 
-Open the IntelliJ IDEA Community Edition app on your Teched laptop:
+Open the terminal or Git Bash on your laptop
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/1f3c6050-dd18-444d-92fd-341135e04494)-->
-![image](image/openintellij.png)
+<!-- ![image](image/openintellij.png) -->
 
-Select "Get from VCS"
+Clone the repository into your laptop by
+```
+git clone https://github.com/SAP-samples/alm-demo-session.git
+```
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/23db97d8-640b-4107-bdc9-c57a791a4fe1)-->
-![image](image/getfromvcs.png)
+<!-- ![image](image/getfromvcs.png) -->
+![alt text](image.png)
 
-If IntelliJ opens with an already added project, please choose File > New > Project from Version Control
+<!-- If IntelliJ opens with an already added project, please choose File > New > Project from Version Control
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/61a6c234-bd1c-49b6-ad75-934596d87346)-->
-![image](image/61a6c234-bd1c-49b6-ad75-934596d87346.png)
+<!-- ![image](image/61a6c234-bd1c-49b6-ad75-934596d87346.png) -->
 
-Paste the following URL: https://github.com/SAP-samples/teched2023-XP261.git 
-Then click on "Clone".
+<!-- Paste the following URL: https://github.com/SAP-samples/teched2023-XP261.git  -->
+<!-- Then click on "Clone". -->
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/e77ac5ec-2a6d-4e88-bf87-555a7a446978)-->
-![image](image/vcsclone.png)
+<!-- ![image](image/vcsclone.png) -->
 
-You will now see the imported Node.js project in your IntelliJ project browser.
+You will now see the cloned Node.js project in your laptop
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/28ce30df-dc99-44c4-aff0-45dc25568d12)-->
-![image](image/28ce30df-dc99-44c4-aff0-45dc25568d12.png)
+<!-- ![image](image/28ce30df-dc99-44c4-aff0-45dc25568d12.png) -->
 
-In the project, there is a branch called 'non-instrumented' which is a non-instrumented version of the teched demo application.
+In the project, there is a branch called 'non-instrumented' which is a non-instrumented version of the demo application.
 
-To check out the non-instrumented branch, right-click on the root folder of your project and select "Git" -> "Branches"
-<br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4ef137aa-ce3e-465a-8dbd-90abd9d808aa)-->
-![image](image/4ef137aa-ce3e-465a-8dbd-90abd9d808aa.png)
+To check out the non-instrumented branch, go into the repository root folder
+```
+cd alm-demo-session
+```
+![alt text](image-1.png)
 
-Open the tree "Remote" -> "origin" and select the entry "non-instrumented". Then click on "Checkout"
-<br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/04d740c0-9c2a-4d22-8939-8b70da6d4ee0)-->
-![image](image/04d740c0-9c2a-4d22-8939-8b70da6d4ee0.png)
+And Enter the below command to checkout the branch
+```
+git checkout non-instrumented
+```
+
+
+<!-- <br>-![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/4ef137aa-ce3e-465a-8dbd-90abd9d808aa) -->
+<!-- ![image](image/4ef137aa-ce3e-465a-8dbd-90abd9d808aa.png) -->
+
+<!-- Open the tree "Remote" -> "origin" and select the entry "non-instrumented". Then click on "Checkout" -->
+<!-- <br>-![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/04d740c0-9c2a-4d22-8939-8b70da6d4ee0) -->
+<!-- ![image](image/04d740c0-9c2a-4d22-8939-8b70da6d4ee0.png) -->
 
 ## Exercise 1.2 Build initial Node.js application
 
 We will now build and deploy the non-instrumented Node.js application.
 
-The first step is to install all dependencies required by the application. We have to do this for the UI and the server component.
+Open VS Code and Click on the open folder button
+![alt text](image-2.png)
+
+Navigate to the clone repository root folder and open it
+
+The Next step is to install all dependencies required by the application. We have to do this for the UI and the server component.
 
 Select the tab "Terminal" in the lower left area of IntelliJ to open a new terminal.
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2b98eed1-b091-4967-b80f-205fefbe6335)-->
