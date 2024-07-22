@@ -1,0 +1,19 @@
+{
+    "uaa":{
+      "tenantmode": "dedicated",
+      "sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
+      "subaccountid": "936a5995-2c31-4d4f-ae2c-827e05ac3733",
+      "credential-type": "instance-secret",
+      "clientid": "sb-job-overview!t162106",
+      "xsappname": "job-overview!t162106",
+      "clientsecret": "ok/fNx/qfFVHOyKL5WAeRb4Lmbo=",
+      "url": "https://calm-1provider-dev.authentication.eu10.hana.ondemand.com",
+      "uaadomain": "authentication.eu10.hana.ondemand.com",
+      "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw25Jrd25evVCHjhs1vWk\n+NnVSRIYvYXR09/GcEo5OIL0b2d38AsU9cz13R9j+xz+Aw4u+0bE47h+Lsh1aiqX\nAOox43hRlFtoaiqQEoUUMTaZFzgh3Xwz6PuRUDBrFHqUxMUokCHSu2uescVMab4z\nIKaaRu/9gjarx+QNe+fClHBgb5GyojjtYX2nvkC8wqBwbkgrPX5YM64yF0YY/T4Y\nRBB8rcLx4lcdC5+YAZsS6aDhJ++SgX0d1+6fomfROfzcewPoCqn6L3sBdrYfIAzG\nCv9b475IX1NW/B2SiNLMNFsGl7Hwu1+wXT53PKFooFn2BXZoiBbrfCH5CKY2bpp/\nmwIDAQAB\n-----END PUBLIC KEY-----",
+      "apiurl": "https://api.authentication.eu10.hana.ondemand.com",
+      "identityzone": "calm-1provider-dev",
+      "identityzoneid": "936a5995-2c31-4d4f-ae2c-827e05ac3733",
+      "tenantid": "936a5995-2c31-4d4f-ae2c-827e05ac3733",
+      "zoneid": "936a5995-2c31-4d4f-ae2c-827e05ac3733"
+    }
+}
