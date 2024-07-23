@@ -32,7 +32,7 @@ Use the "Download" button to download the service key.
 
 ## Exercise 2.2 Create Destination in BTP Cockpit
 
-Go back to [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd) and enter your subaccount. Click on "Connectivity" -> "Destinations"
+Go back to [SAP BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1) and enter your subaccount. Click on "Connectivity" -> "Destinations"
 <br>![image](images/271266952-bd8b7f95-b118-43cf-8a69-35e33a270373.png)
 
 Click "New Destination"
@@ -61,7 +61,7 @@ When you click the "Check Connection" button you should get this response:
 
 ## Exercise 2.3 Activate Data Collection in SAP Cloud ALM
 
-Go back to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) tenant.
+Go back to your [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) tenant.
 
 Click "SAP Cloud ALM for Operations" > "Real User Monitoring"
 <br>![image](images/271267314-931bd470-9b09-41b5-a067-d4339e71728d.png)

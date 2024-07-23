@@ -122,7 +122,7 @@ Copy the following code into a Notepad
 
 Replace the XX in the properties SAP_CALM_SERVICE_NAME and OTEL_RESOURCE_ATTRIBUTES with your **place number**.
 
-Now go to your _subaccount_ via the [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd)
+Now go to your _subaccount_ via the [SAP BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1)
 
 Enter your subaccount.
 
@@ -135,10 +135,10 @@ Your code fragment should now look similar to this:
 ```
     properties:
       SAP_CALM_SERVICE_TYPE: SAP_CP_CF
-      SAP_CALM_SERVICE_NAME: TechEd-demo-app-001
+      SAP_CALM_SERVICE_NAME: alm-demo-app-001
       SAP_CALM_DCI_AGG_THRESHOLD: 1
       OTEL_POLL_INTERVAL: 300
-      OTEL_RESOURCE_ATTRIBUTES: account=TechEd-demo-app-001,sap.tenancy.tenant_id=87993b94-3664-40cc-9156-db9b50b08c94
+      OTEL_RESOURCE_ATTRIBUTES: account=alm-demo-app-001,sap.tenancy.tenant_id=87993b94-3664-40cc-9156-db9b50b08c94
 ```
 
 In the teched-demo-app folder open the file mta.yaml
