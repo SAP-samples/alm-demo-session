@@ -4,7 +4,9 @@ In this exercise, we will instrument the NodeJs application that you want to mon
 In our sample scenario, we assume, that we want to monitor a full-stack application built on SAP BTP. The frontend consists of SAP UI5. The UI requests will be routed to the application backend via the Application Router. Here, the application backend consists of one microservice. In order to monitor the backend with SAP Cloud ALM this microservice is instrumented with DCI. To gather the client performance we leverage SAP UI5's ability to measure and export these Frontend Statistics Records (FESR). Our microservice acts as a receiver for these FESRs. This receiver is instrumented with both the DCI as well as the FESR receiver library. DCI will always export the data to the SAP Cloud ALM routing infrastructure. This routing infrastructure will route the data to the correct SAP Cloud ALM tenant.
 
 <!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/975d1a50-46c7-4014-b91e-fd0f75153874)-->
-![image](image/975d1a50-46c7-4014-b91e-fd0f75153874.png)
+<!-- ![image](image/975d1a50-46c7-4014-b91e-fd0f75153874.png) -->
+
+![alt text](image-12.png)
 
 ## Exercise 1.1 Copy Code from GitHub
 
@@ -124,38 +126,44 @@ Before you can deploy the application, you have to connect your local environmen
 
 Go to the Teched Global Account in [BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd)
 
-Log on with your Teched User: XP261-0XX@education.cloud.sap
+Log on with your User : ops-xxx
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/5bc612e6-aa81-4796-887e-fe1a7f0a65bf)-->
-![image](image/5bc612e6-aa81-4796-887e-fe1a7f0a65bf.png)
+<!-- ![image](image/5bc612e6-aa81-4796-887e-fe1a7f0a65bf.png) -->
 
-Click on the subaccount for your place number: XP261-0XX
+![alt text](image-13.png)
+
+Click on the subaccount for your place number: alm-handson-ops-xxx
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/cdf735df-b432-4307-942b-75352d3c7dd0)-->
-![image](image/cdf735df-b432-4307-942b-75352d3c7dd0.png)
+<!-- ![image](image/cdf735df-b432-4307-942b-75352d3c7dd0.png) -->
+![alt text](image-14.png)
 
 In the Subaccount Overview, you will find the API Endpoint for your Cloud Foundry Org.
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/712053ea-d1d9-44cb-a883-ac69d9a9e780)-->
-![image](image/712053ea-d1d9-44cb-a883-ac69d9a9e780.png)
+<!-- ![image](image/712053ea-d1d9-44cb-a883-ac69d9a9e780.png) -->
 
-For this Teched exercise, all subaccounts will be in the same region and hence have the same API endpoint. 
+![alt text](image-15.png)
 
-Go back to your IntelliJ. 
+For this exercise, all subaccounts will be in the same region and hence have the same API endpoint. 
+
+Go back to your VSCode. 
 
 In your terminal enter the command: 
 ```shell
-cf api https://api.cf.eu10-004.hana.ondemand.com
+cf api https://api.cf.us10.hana.ondemand.com/
 ```
-<br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/a08efb2a-456d-4306-b2b1-cd07410bf2d2)-->
-![image](image/a08efb2a-456d-4306-b2b1-cd07410bf2d2.png)
+<!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/a08efb2a-456d-4306-b2b1-cd07410bf2d2)-->
+<!-- ![image](image/a08efb2a-456d-4306-b2b1-cd07410bf2d2.png) -->
 
-Enter the command: 
+And then Enter the command: 
 ```shell
-cf login --origin tdct3ched1-platform 
+cf login --origin almsummit2024-platform 
 ```
-Log on with your Teched user and password.
+Log on with your user and password.
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/291f2c83-d2a4-4c57-bbc2-aebf89a64d2e)-->
-![image](image/291f2c83-d2a4-4c57-bbc2-aebf89a64d2e.png)
+<!-- ![image](image/291f2c83-d2a4-4c57-bbc2-aebf89a64d2e.png) -->
+![alt text](image-16.png)
 
-You are now logged on to the Cloud Foundry org and your deployment will target the Teched demo space XP261-0XX.
+You are now logged on to the Cloud Foundry org and your deployment will target the demo space in your subaccount
 
 ## Exercise 1.4 Deploy initial Node.js application
 
