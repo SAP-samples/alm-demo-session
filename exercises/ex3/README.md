@@ -72,7 +72,7 @@ Insert the following code after line 31.
 
 With the new dependencies, we have to rerun the npm install.
 
-In the terminal in IntelliJ go to the server directory using the command: 
+In the terminal in VScode go to the server directory using the command: 
 ```shell
 cd server
 ```
