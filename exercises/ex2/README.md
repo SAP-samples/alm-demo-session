@@ -38,8 +38,9 @@ Use the "Download" button to download the service key.
 Go back to [SAP BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1) and enter your subaccount. Click on "Connectivity" -> "Destinations"
 <br>![image](images/271266952-bd8b7f95-b118-43cf-8a69-35e33a270373.png)
 
-Click "New Destination"
-<br>![image](images/271267036-b99546f5-2171-4a66-a6a1-7f6c4ed1cd34.png)
+Click "Create Destination"
+<!-- <br>![image](images/271267036-b99546f5-2171-4a66-a6a1-7f6c4ed1cd34.png) -->
+![alt text](image-1.png)
 
 Enter the following values (replace XX with your place number):
 - Name: CALM_datacollector
@@ -57,7 +58,8 @@ Enter the following values (replace XX with your place number):
 Save your destination.
 
 In the end, your destination should look like this:
-<br>![image](images/271267184-1b768df0-e72e-451d-9f47-a980a9573c27.png)
+<!-- <br>![image](images/271267184-1b768df0-e72e-451d-9f47-a980a9573c27.png) -->
+![alt text](image.png)
 
 When you click the "Check Connection" button you should get this response:
 <br>![image](images/277742726-b9c90439-fd22-455e-9de7-7cbdf91537cd.png)
