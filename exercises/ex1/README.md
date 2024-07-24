@@ -71,7 +71,7 @@ The Next step is to install all dependencies required by the application. We hav
 
 Select the tab "Terminal" in the lower left area of VSCode to open a new terminal.
 
-Click the below area
+Click the area where the arrow is pointing
 <!-- ![alt text](image-3.png) -->
 ![alt text](image-17.png)
 
