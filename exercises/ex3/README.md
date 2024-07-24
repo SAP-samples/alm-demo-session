@@ -63,8 +63,8 @@ In the alm-demo-app > server folder open the package.json file
 
 Insert the following code after line 31.
 ```json
-    "@sap/xotel-agent-ext-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/xotel-agent-ext-js/-/xotel-agent-ext-js-1.5.15.tgz",
-    "@sap/fesr-to-otel-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/fesr-to-otel-js/-/fesr-to-otel-js-1.5.6.tgz"
+    "@sap/xotel-agent-ext-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/xotel-agent-ext-js/-/xotel-agent-ext-js-1.5.13.tgz",
+    "@sap/fesr-to-otel-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/fesr-to-otel-js/-/fesr-to-otel-js-1.5.5.tgz"
 ```
 **Don't forget to add a ',' behind the entry in line 31.**
 <!-- <br>![image](images/270768630-02f9b4a7-3aea-4e2f-bb10-883b14ea428a.png) -->
