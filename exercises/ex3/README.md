@@ -84,7 +84,7 @@ npm install
 ![alt text](image-7.png)
 
 ### Add tracer and FESR receiver server.js
-In the teched-demo-app > server folder open the file server.js
+In the alm-demo-app > server folder open the file server.js
 <!-- <br>![image](images/271314998-27cce1f9-fa35-4c78-87d4-c3aed874a049.png) -->
 ![alt text](image-8.png)
 
@@ -141,7 +141,7 @@ Your code fragment should now look similar to this:
       OTEL_RESOURCE_ATTRIBUTES: account=alm-demo-app-001,sap.tenancy.tenant_id=87993b94-3664-40cc-9156-db9b50b08c94
 ```
 
-In the teched-demo-app folder open the file mta.yaml
+In the alm-demo-app folder open the file mta.yaml
 <!-- <br>![image](images/271317787-2bb1acc4-896c-4c12-b759-dfb222780400.png) -->
 ![alt text](image-11.png)
 
