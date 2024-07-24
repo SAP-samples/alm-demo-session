@@ -51,7 +51,7 @@ In your VSCode project expand the expand alm-demo-app > server folder and open t
 
 Replace the current content with this line of code
 ```
-//73555000100200018064.npmsrv.cdn.repositories.cloud.sap/:_auth=c2FwLXhwMjYxOkpnckVaUHhmSXhTY2tyT0hHWndHZXlKM2JRRlFhRHlV
+//73555000100200018064.npmsrv.cdn.repositories.cloud.sap/:_auth=MDAwMDIwMjQxOC1BbG1zdW1taXQ6SzFKbG5oYVNJclBvdjV6UzQ1ZjJpRGNaVTY2eDBEQmk=
 ```
 <br>![image](images/270767624-dfeac1ab-0bd6-45e0-a95f-438b37d0d9bb.png)
 
