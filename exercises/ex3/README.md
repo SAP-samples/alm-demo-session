@@ -153,6 +153,8 @@ Add the code from your Notepad after line 23 (after the property "path") in the 
 
 Now you can build and deploy your application again.
 
+Note: Kindly check whether you have saved all of your changes before proceeding further.
+
 Switch back to the root directory and remove the existing file: 
 ```shell
 cd ..
