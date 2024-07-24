@@ -4,7 +4,7 @@ Now comes the most important part. In this exercise, we will finally instrument 
 
 ## Exercise 3.1 Instrument UI Application
 
-Let's start with the UI application. Here we have to add the FESR instrumentation to collect Frontend Statistics Records.
+Let's start with the UI application. Here we have to add the FESR instrumentation to collect Frontend Statistics Records automatically.
 
 ### Add FESR beacon to index.html
 In your project in VSCode expand alm-demo-app > ui > webapp and open the index.html file
@@ -51,7 +51,7 @@ In your VSCode project expand the expand alm-demo-app > server folder and open t
 
 Replace the current content with this line of code
 ```
-//73555000100200018064.npmsrv.cdn.repositories.cloud.sap/:_auth=c2FwLXhwMjYxOkpnckVaUHhmSXhTY2tyT0hHWndHZXlKM2JRRlFhRHlV
+//73555000100200018064.npmsrv.cdn.repositories.cloud.sap/:_auth=MDAwMDIwMjQxOC1BbG1zdW1taXQ6SzFKbG5oYVNJclBvdjV6UzQ1ZjJpRGNaVTY2eDBEQmk=
 ```
 <br>![image](images/270767624-dfeac1ab-0bd6-45e0-a95f-438b37d0d9bb.png)
 
@@ -63,8 +63,8 @@ In the alm-demo-app > server folder open the package.json file
 
 Insert the following code after line 31.
 ```json
-    "@sap/xotel-agent-ext-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/xotel-agent-ext-js/-/xotel-agent-ext-js-1.5.2.tgz",
-    "@sap/fesr-to-otel-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/fesr-to-otel-js/-/fesr-to-otel-js-1.5.0.tgz"
+    "@sap/xotel-agent-ext-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/xotel-agent-ext-js/-/xotel-agent-ext-js-1.5.13.tgz",
+    "@sap/fesr-to-otel-js": "https://73555000100200018064.npmsrv.cdn.repositories.cloud.sap/@sap/fesr-to-otel-js/-/fesr-to-otel-js-1.5.5.tgz"
 ```
 **Don't forget to add a ',' behind the entry in line 31.**
 <!-- <br>![image](images/270768630-02f9b4a7-3aea-4e2f-bb10-883b14ea428a.png) -->
@@ -72,7 +72,7 @@ Insert the following code after line 31.
 
 With the new dependencies, we have to rerun the npm install.
 
-In the terminal in IntelliJ go to the server directory using the command: 
+In the terminal in VScode go to the server directory using the command: 
 ```shell
 cd server
 ```
@@ -84,7 +84,7 @@ npm install
 ![alt text](image-7.png)
 
 ### Add tracer and FESR receiver server.js
-In the teched-demo-app > server folder open the file server.js
+In the alm-demo-app > server folder open the file server.js
 <!-- <br>![image](images/271314998-27cce1f9-fa35-4c78-87d4-c3aed874a049.png) -->
 ![alt text](image-8.png)
 
@@ -141,7 +141,7 @@ Your code fragment should now look similar to this:
       OTEL_RESOURCE_ATTRIBUTES: account=alm-demo-app-001,sap.tenancy.tenant_id=87993b94-3664-40cc-9156-db9b50b08c94
 ```
 
-In the teched-demo-app folder open the file mta.yaml
+In the alm-demo-app folder open the file mta.yaml
 <!-- <br>![image](images/271317787-2bb1acc4-896c-4c12-b759-dfb222780400.png) -->
 ![alt text](image-11.png)
 
@@ -152,6 +152,8 @@ Add the code from your Notepad after line 23 (after the property "path") in the 
 ## Exercise 3.3 Deploy instrumented Node.js application
 
 Now you can build and deploy your application again.
+
+Note: Kindly check whether you have saved all of your changes before proceeding further.
 
 Switch back to the root directory and remove the existing file: 
 ```shell

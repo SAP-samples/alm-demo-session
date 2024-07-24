@@ -14,14 +14,14 @@ Please check the sign on your table. The number on this sign is your place numbe
 
 ## Login Information
 
-Please replace the _**XXX**_ in the user name with your place number (e.g. XP261_001@education.cloud.sap).
+Please replace the ops-XXX in the user name with your place number (e.g. ops-001).
 
 In the SAP BTP Cockpit, you will only see the subaccount that is relevant for you, based on your place number.
 
 | Application | User ID | Password | URL |
 |---|---|---|---|
-| SAP Cloud ALM URL | ops-user-xxx | xxx | [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) |
-| SAP BTP Cockpit | ops-user-xxx | xxx | [Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1/) |
+| SAP Cloud ALM URL | ops-xxx | xxx | [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) |
+| SAP BTP Cockpit | ops-xxx | xxx | [Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1/) |
 
 ## Summary
 

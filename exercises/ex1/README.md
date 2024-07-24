@@ -16,7 +16,7 @@ Open the terminal or Git Bash on your laptop
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/1f3c6050-dd18-444d-92fd-341135e04494)-->
 <!-- ![image](image/openintellij.png) -->
 
-Clone the repository into your laptop by
+Go to the directory where you want to clone the repository and execute the below command.
 ```
 git clone https://github.com/SAP-samples/alm-demo-session.git
 ```
@@ -71,8 +71,14 @@ The Next step is to install all dependencies required by the application. We hav
 
 Select the tab "Terminal" in the lower left area of VSCode to open a new terminal.
 
-![alt text](image-3.png)
-![alt text](image-4.png)
+Click the area where the arrow is pointing
+<!-- ![alt text](image-3.png) -->
+![alt text](image-17.png)
+
+And then choose the terminal tab
+
+![alt text](image-18.png)
+<!-- ![alt text](image-4.png) -->
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2b98eed1-b091-4967-b80f-205fefbe6335)-->
 <!-- ![image](image/2b98eed1-b091-4967-b80f-205fefbe6335.png) -->
 
@@ -124,7 +130,7 @@ After the build is successfully finished, you will find a new file alm-demo-app_
 
 Before you can deploy the application, you have to connect your local environment to the correct cloud foundry org.
 
-Go to the Teched Global Account in [BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd)
+Go to the Demo Global Account in [BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1/)
 
 Log on with your User : ops-xxx
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/5bc612e6-aa81-4796-887e-fe1a7f0a65bf)-->
