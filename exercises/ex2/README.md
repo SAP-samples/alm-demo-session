@@ -12,6 +12,8 @@ The service key for the SAP Cloud ALM APIs was uploaded to the Landscape Managem
 
 Log on to [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) with your alm summit user.
 
+Note: If you face any errors, try refreshing the page and login again
+
 Click on "Administration" > "Landscape Management" to open the Landscape Management application.
 <br>![image](images/271245519-da2aa2e2-3ecc-49bc-8f1f-5b71be8e2aa6.png)
 
