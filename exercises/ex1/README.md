@@ -130,7 +130,7 @@ After the build is successfully finished, you will find a new file alm-demo-app_
 
 Before you can deploy the application, you have to connect your local environment to the correct cloud foundry org.
 
-Go to the Teched Global Account in [BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd)
+Go to the Global Account in [BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1/)
 
 Log on with your User : ops-xxx
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/5bc612e6-aa81-4796-887e-fe1a7f0a65bf)-->
