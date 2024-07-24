@@ -4,7 +4,7 @@ Now comes the most important part. In this exercise, we will finally instrument 
 
 ## Exercise 3.1 Instrument UI Application
 
-Let's start with the UI application. Here we have to add the FESR instrumentation to collect Frontend Statistics Records.
+Let's start with the UI application. Here we have to add the FESR instrumentation to collect Frontend Statistics Records automatically.
 
 ### Add FESR beacon to index.html
 In your project in VSCode expand alm-demo-app > ui > webapp and open the index.html file
