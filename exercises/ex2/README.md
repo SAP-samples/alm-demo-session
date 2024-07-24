@@ -10,7 +10,7 @@ The destination points to the SAP Cloud ALM API in SAP Cloud ALM. To authenticat
 
 The service key for the SAP Cloud ALM APIs was uploaded to the Landscape Management in your SAP Cloud ALM tenant. From there we will now retrieve it.
 
-Log on to [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) with your Teched user.
+Log on to [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) with your alm summit user.
 
 Click on "Administration" > "Landscape Management" to open the Landscape Management application.
 <br>![image](images/271245519-da2aa2e2-3ecc-49bc-8f1f-5b71be8e2aa6.png)
@@ -32,14 +32,14 @@ Use the "Download" button to download the service key.
 
 ## Exercise 2.2 Create Destination in BTP Cockpit
 
-Go back to [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=tdct3ched1.accounts.ondemand.com#/globalaccount/e2a835b0-3011-4c79-818a-d7767c4627cd) and enter your subaccount. Click on "Connectivity" -> "Destinations"
+Go back to [SAP BTP Cockpit](https://emea.cockpit.btp.cloud.sap/cockpit?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1) and enter your subaccount. Click on "Connectivity" -> "Destinations"
 <br>![image](images/271266952-bd8b7f95-b118-43cf-8a69-35e33a270373.png)
 
 Click "New Destination"
 <br>![image](images/271267036-b99546f5-2171-4a66-a6a1-7f6c4ed1cd34.png)
 
 Enter the following values (replace XX with your place number):
-- Name: CALM_datacollector_XP261-0XX
+- Name: CALM_datacollector
 - Type: HTTP
 - Description: Connection to SAP Cloud ALM
 - URL: Enter endpoints:Api from the service key (1)
@@ -61,7 +61,7 @@ When you click the "Check Connection" button you should get this response:
 
 ## Exercise 2.3 Activate Data Collection in SAP Cloud ALM
 
-Go back to your [SAP Cloud ALM](https://xp261-9kx159xc.eu10.alm.cloud.sap/launchpad#Shell-home) tenant.
+Go back to your [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) tenant.
 
 Click "SAP Cloud ALM for Operations" > "Real User Monitoring"
 <br>![image](images/271267314-931bd470-9b09-41b5-a067-d4339e71728d.png)

@@ -1,10 +1,10 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP261)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-XP261)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP261)](https://api.reuse.software/info/github.com/SAP-samples/alm-demo-session)
 
-# XP261 - Observability for your SAP BTP Applications with SAP Cloud ALM
+# Instrument your BTP based Custom application with the help of Open Telemetry for SAP Cloud ALM
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2023 session called XP261 - Observability for your SAP BTP Applications with SAP Cloud ALM.  
+This repository contains the material for the SAP ALM Summit 2024 session called Instrument your BTP based Custom application with the help of Open Telemetry for SAP Cloud ALM.
 
 SAP Cloud ALM provides a [Next Generation Data Collection Infrastructure](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/data-collection-infrastructure.html) that offers a standardized way to collect monitoring data using Open Telemetry. With this, instrumentation efforts for your PaaS applications on SAP BTP, Cloud Foundry environment are reduced to a bare minimum. Get an overview of the concept and learn how to instrument your applications – and how this results in monitoring data coming up in SAP Cloud ALM applications like Exception Monitoring, Health Monitoring, and Real User Monitoring.
 
@@ -19,7 +19,7 @@ You will be provided with a small demo Node.js application which you will instru
 The requirements to follow the exercises in this repository are
 
 - Basic knowledge of SAP BTP Cockpit
-- Basic knowledge in development environments like IntelliJ
+- Basic knowledge in development environments like VSCode, Git cli
 
 ## Exercises
 
