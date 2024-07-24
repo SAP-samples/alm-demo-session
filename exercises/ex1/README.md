@@ -71,8 +71,14 @@ The Next step is to install all dependencies required by the application. We hav
 
 Select the tab "Terminal" in the lower left area of VSCode to open a new terminal.
 
-![alt text](image-3.png)
-![alt text](image-4.png)
+Click the below area
+<!-- ![alt text](image-3.png) -->
+![alt text](image-17.png)
+
+And then choose the terminal tab
+
+![alt text](image-18.png)
+<!-- ![alt text](image-4.png) -->
 <br><!---![image](https://github.com/SAP-samples/teched2023-XP261/assets/113598836/2b98eed1-b091-4967-b80f-205fefbe6335)-->
 <!-- ![image](image/2b98eed1-b091-4967-b80f-205fefbe6335.png) -->
 
