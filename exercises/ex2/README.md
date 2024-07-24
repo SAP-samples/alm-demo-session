@@ -69,44 +69,61 @@ When you click the "Check Connection" button you should get this response:
 Go back to your [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) tenant.
 
 Click "SAP Cloud ALM for Operations" > "Real User Monitoring"
-<br>![image](images/271267314-931bd470-9b09-41b5-a067-d4339e71728d.png)
+<!-- <br>![image](images/271267314-931bd470-9b09-41b5-a067-d4339e71728d.png) -->
+![alt text](image-3.png)
 
 Open the Scope Selection and select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. 
 You can use the Live Search to filter for your place number.
 Click "Apply".
-<br>![image](images/277744803-7d29179b-ca43-410a-a787-361ed722e264.png)
+<!-- <br>![image](images/277744803-7d29179b-ca43-410a-a787-361ed722e264.png) -->
+![alt text](image-5.png)
 
 Open the Real User Monitoring configuration
-<br>![image](images/271267443-853c72ef-3e54-4179-9c86-6e61f1117b59.png)
+<!-- <br>![image](images/271267443-853c72ef-3e54-4179-9c86-6e61f1117b59.png) -->
+![alt text](image-6.png)
 
 Switch the data collection for your SAP BTP, Cloud Foundry environment from OFF to ON.
-<br>![image](images/271267507-425d3fa0-b3ef-4953-8a84-859df4397b95.png)
+<!-- <br>![image](images/271267507-425d3fa0-b3ef-4953-8a84-859df4397b95.png) -->
+![alt text](image-7.png)
 
 After the activation, the service should have the status "Active".
-<br>![image](images/271267711-14202ca6-9d26-4822-b34f-7d9cd60a12ec.png)
+<!-- <br>![image](images/271267711-14202ca6-9d26-4822-b34f-7d9cd60a12ec.png) -->
+![alt text](image-8.png)
 
 Go back to the SAP Cloud ALM Launchpad and click "SAP Cloud ALM for Operations" > "Health Monitoring"
-<br>![image](images/271306660-2c89d95d-c61c-4c8c-8848-59f6adb42da7.png)
+<!-- <br>![image](images/271306660-2c89d95d-c61c-4c8c-8848-59f6adb42da7.png) -->
+![alt text](image-4.png)
 
 Open the Scope Selection
-<br>![image](images/271306877-6adb5fa3-343f-4588-866f-8809face65eb.png)
+<!-- <br>![image](images/271306877-6adb5fa3-343f-4588-866f-8809face65eb.png) -->
+![alt text](image-9.png)
 
 In Health Monitoring only "Configured" services are visible in the scope selection by default. To find your configured BTP account, you have to change the filter parameter first. Click on "Toggle Filter Bar"
-<br>![image](images/271306997-2d5700a6-1bc9-4a97-86ec-925bd2fa1011.png)
+<!-- <br>![image](images/271306997-2d5700a6-1bc9-4a97-86ec-925bd2fa1011.png) -->
+![alt text](image-10.png)
 
 Change the "Service Status" to "All" and press the "Go" button.
-<br>![image](images/277744539-689cf4d6-9dc5-4e88-b1e7-12a8d243c04a.png)
+<!-- <br>![image](images/277744539-689cf4d6-9dc5-4e88-b1e7-12a8d243c04a.png) -->
+![alt text](image-11.png)
 
 Select the SAP BTP, Cloud Foundry environment that matches the subaccount for your place number. You can again use the Live Search to filter for your place number. Click "Apply".
-<br>![image](images/277744935-4b430b1c-2e60-4893-b50a-3f8c6ffb67a3.png)
+<!-- <br>![image](images/277744935-4b430b1c-2e60-4893-b50a-3f8c6ffb67a3.png) -->
+![alt text](image-12.png)
 
 Open the Health Monitoring configuration
-<br>![image](images/271307665-bfe3853b-fbf8-4f77-be60-d70f1e3ca668.png)
+<!-- <br>![image](images/271307665-bfe3853b-fbf8-4f77-be60-d70f1e3ca668.png) -->
+![alt text](image-13.png)
 
 Switch the data collection for your SAP BTP, Cloud Foundry environment from OFF to ON.
-<br>![image](images/271307773-a556f951-1207-4c80-8e04-62ef8608580b.png)
+<!-- <br>![image](images/271307773-a556f951-1207-4c80-8e04-62ef8608580b.png) -->
 
-<br>![image](images/271307926-a1235d3a-bc9b-40ab-b877-b1e2a177fa9e.png)
+![alt text](image-14.png)
+
+<br>
+
+![alt text](image-15.png)
+
+<!-- <br>![image](images/271307926-a1235d3a-bc9b-40ab-b877-b1e2a177fa9e.png) -->
 
 ## Summary
 
