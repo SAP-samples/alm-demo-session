@@ -16,7 +16,7 @@ Open the terminal or Git Bash on your laptop
 <br><!---![image](https://github.com/andrea-schu/teched2023-XP261/assets/113598836/1f3c6050-dd18-444d-92fd-341135e04494)-->
 <!-- ![image](image/openintellij.png) -->
 
-Clone the repository into your laptop by
+Go to the directory where you want to clone the repository and execute the below command.
 ```
 git clone https://github.com/SAP-samples/alm-demo-session.git
 ```
