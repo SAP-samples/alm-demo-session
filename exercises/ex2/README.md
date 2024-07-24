@@ -18,7 +18,7 @@ Click on "Administration" > "Landscape Management" to open the Landscape Managem
 <br>![image](images/271245519-da2aa2e2-3ecc-49bc-8f1f-5b71be8e2aa6.png)
 
 If you open Landscape Management for the first time the scope selection will come up. You can just select all service types and click "Apply"
-If the scope selector doesn't open automatically click on the scope selector icon on the top right.
+
 <br>![image](images/271245954-df9ac645-cfb8-40c5-924b-06bf257b0e66.png)
 
 If the scope selection doesn't come up, you can click the "Scope" button to open it.
