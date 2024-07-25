@@ -20,8 +20,8 @@ In the SAP BTP Cockpit, you will only see the subaccount that is relevant for yo
 
 | Application | User ID | Password | URL |
 |---|---|---|---|
-| SAP Cloud ALM URL | ops-xxx | xxx | [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) |
-| SAP BTP Cockpit | ops-xxx | xxx | [Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1/) |
+| SAP Cloud ALM URL | ops-002 to ops-068 | Alm#Sap297! | [SAP Cloud ALM](https://alm-summit-apj-ops.eu20.alm.cloud.sap/launchpad#Shell-home) |
+| SAP BTP Cockpit | ops-002 to ops-068 | Alm#Sap297! | [Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=almsummit2024.accounts.ondemand.com#/globalaccount/d9a9f651-0f63-4e57-b56b-e6305c5cf0c1/) |
 
 ## Summary
 
