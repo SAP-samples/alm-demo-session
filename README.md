@@ -1,4 +1,4 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP261)](https://api.reuse.software/info/github.com/SAP-samples/alm-demo-session)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/alm-demo-session)](https://api.reuse.software/info/github.com/SAP-samples/alm-demo-session)
 
 # Instrument your BTP based Custom application with the help of Open Telemetry for SAP Cloud ALM
 
